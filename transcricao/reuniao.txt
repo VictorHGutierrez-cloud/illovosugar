@@ -1,0 +1,623 @@
+b7c57788-9024-4d23-b081-2d69e7fa36d1
+00:00:02,800 --> 00:00:04,160
+Paolo Patrizio Urzi: am i muting
+
+60974b7b-8d88-49c3-b9d6-929b0980630b
+00:00:05,470 --> 00:00:08,550
+Victor Henrique Aguiar Gutierrez Duarte: sorry it's
+
+7078e122-30f4-40da-9ad4-a870cfccedc3
+00:00:08,550 --> 00:00:10,810
+Paolo Patrizio Urzi: quite loud in the office no really
+
+03810aac-78cd-40d3-a939-e52efaae55ac
+00:00:10,810 --> 00:00:14,650
+Victor Henrique Aguiar Gutierrez Duarte: bro i like can you hear my my microphone no
+
+16387a90-ff81-4cdb-ae6c-a2f72d495b90
+00:00:14,650 --> 00:00:19,810
+Paolo Patrizio Urzi: no i can hear like a little bit the background but no stress don't stress i
+
+29aa8989-16b4-4758-89af-864087707860
+00:00:20,390 --> 00:00:25,070
+Victor Henrique Aguiar Gutierrez Duarte: mean myself but like uh we are few of our team now but
+
+1926c243-0b54-4887-9c0a-eb8fdcbe128d
+00:00:25,070 --> 00:00:26,250
+Paolo Patrizio Urzi: everyone
+
+d9063c3f-397d-4d80-9e99-15b368b3e954
+00:00:26,250 --> 00:00:29,010
+Victor Henrique Aguiar Gutierrez Duarte: is here on the other teams okay
+
+32aad95e-9a49-465e-9691-a77cee066eca
+00:00:34,190 --> 00:00:38,590
+Paolo Patrizio Urzi: Let's see if she shows up. She's moved my meeting three times.
+
+d6ca38d0-9908-4dbb-a759-ae6ef724b6ae
+00:00:41,190 --> 00:00:41,910
+Victor Henrique Aguiar Gutierrez Duarte: She
+
+250f6dd7-5cd2-4dc5-a346-31cdbc3d251b
+00:00:45,140 --> 00:00:45,500
+Victor Henrique Aguiar Gutierrez Duarte: moved.
+
+356b3d57-4bb0-46d3-91c8-c8886089d40a
+00:00:46,760 --> 00:01:11,800
+Paolo Patrizio Urzi: Yeah, I mean like I was supposed to have this meeting last week and then This week I was supposed to have it on the Tuesday She moved it again. So if she moves it the third like this third time I'm gonna tell him no I Say come on it's unacceptable because it's my time that then I'm spending here waiting, you know Yes, and we prepare ourselves we can like anxious with this.
+
+d2fcf0e9-55e8-4e4e-82d7-87af16e2921a
+00:01:12,200 --> 00:01:13,820
+Victor Henrique Aguiar Gutierrez Duarte: Yeah, exactly
+
+bc0a39dd-622c-40a4-8b14-fa914ebb3dab
+00:01:26,510 --> 00:01:29,470
+Victor Henrique Aguiar Gutierrez Duarte: How do we create that pricing calculator that Frank?
+
+cafdf32e-85c9-44af-85f8-b766a2d1b2f0
+00:01:30,980 --> 00:01:45,400
+Paolo Patrizio Urzi: I have a couple of questions on that because I put a calculation there for what you call it, like a pro bundle, 2,000 employees. And then it's showing that it's $12 per employee per month.
+
+710c2b25-6a49-4a48-b845-02513f8330c6
+00:01:46,240 --> 00:01:49,800
+Victor Henrique Aguiar Gutierrez Duarte: This pricing calculator, it's not for South Africa, actually.
+
+5535ede0-f572-46ab-83b2-1e784a09856e
+00:01:50,520 --> 00:01:52,900
+Paolo Patrizio Urzi: Yeah, that's what I thought. I thought it was for Africa.
+
+ee87b9c4-5147-4f2f-bb40-2598fda69e39
+00:01:53,580 --> 00:02:10,360
+Victor Henrique Aguiar Gutierrez Duarte: No, no. the pricing calculator for africa is to rip we have to replace so i don't know who has to place because we don't have access to the website but i okay we could create something unlovable i
+
+ed00f69b-613a-4e57-9fc4-6e9a596e27c8
+00:02:10,360 --> 00:02:18,220
+Paolo Patrizio Urzi: thought it was the africa pricing because uh yeah and then when i put in the price i was like wait this is not africa this is european pricing i'm
+
+b2acd2c0-05e0-4ca9-8d92-3273bde81726
+00:02:18,220 --> 00:02:21,900
+Victor Henrique Aguiar Gutierrez Duarte: gonna ask frank about this okay give me a sec no
+
+b49dd020-4ebc-4634-94f5-cf15e324ffa0
+00:02:21,900 --> 00:02:22,180
+Paolo Patrizio Urzi: stress
+
+456f3d60-09c6-45b6-bcc3-32ca2e7f0cb2
+00:02:53,470 --> 00:02:57,730
+Victor Henrique Aguiar Gutierrez Duarte: Actually, it's just for our concerning, like it's for the DTM team to make.
+
+422022fc-efe5-43b9-ab2b-2b0f29ff1b20
+00:02:58,490 --> 00:02:59,990
+Paolo Patrizio Urzi: They're attempting. Okay.
+
+9ede889c-5f26-4bba-888e-3922cefddf21
+00:03:03,230 --> 00:03:10,410
+Paolo Patrizio Urzi: Okay. I mean, hopefully it doesn't take long. Let's just copy and paste and just change the numbers.
+
+6ff58d3b-84f3-4e9b-9660-446ae5e9620b
+00:03:10,870 --> 00:03:10,930
+Victor Henrique Aguiar Gutierrez Duarte: Yes.
+
+d07982fa-f6c0-4184-8ce2-4f38adeff948
+00:03:18,360 --> 00:03:21,800
+Paolo Patrizio Urzi: This girl doesn't show up. I'm going to call her. I think I have a WhatsApp as well.
+
+6f7bab0e-ac59-4e1d-80f2-efb84146b5c4
+00:03:22,140 --> 00:03:22,580
+Tamanda Chikopa: Okay.
+
+e2d33b7e-cbb9-48f1-9d46-dc94e79d0ed8
+00:04:14,310 --> 00:04:20,970
+Paolo Patrizio Urzi: How's it, Jack? Hey, both. My other one got rescheduled, so I'll just hop on to say hello on this one if you want, and then I'm going to drop it.
+
+2c6d4449-e200-4a63-beaf-864a9d03e624
+00:04:21,630 --> 00:04:26,350
+Victor Henrique Aguiar Gutierrez Duarte: I think this would be postponed as well, because...
+
+57a5e0b2-d1c6-4aca-8c10-29a57974a642
+00:04:26,350 --> 00:04:54,950
+Paolo Patrizio Urzi: I don't want to allow that, because this is the third time she's moved it. I'm going to give her a call now. But the idea for this anyway, Jack, was for me just to give a brief explanation of what Factora is, and mostly to qualify the lead. Like, I just need to know their pains and what they're using ETC because I haven't really had a proper chance to speak to them. Okay. All right. Well, I'll hop off then if that's what it is now. You go do other important stuff. Yeah. Don't stress. Awesome. Ciao, guys. Bye.
+
+fa2d6ba8-2fa1-4678-99b4-916328d22491
+00:04:58,710 --> 00:05:00,130
+Paolo Patrizio Urzi: Let me call her now on air call.
+
+d47780ce-0296-4db9-9d2c-cfa5d1a1ef63
+00:05:03,020 --> 00:05:03,580
+Paolo Patrizio Urzi: I mute myself.
+
+0bf0833e-65e7-4aa2-a23b-415decaa8d15
+00:05:40,650 --> 00:05:44,910
+Paolo Patrizio Urzi: Okay. Let me try and call her on WhatsApp. And then if anything, don't stress, my guy.
+
+beeb96a6-f354-43a6-9dc9-ac90be3c1eaa
+00:05:47,370 --> 00:05:48,750
+Paolo Patrizio Urzi: Thank you for jumping on, though.
+
+da36a7f2-db82-4862-a2ee-1abfa56bb11f
+00:06:40,410 --> 00:06:41,290
+Paolo Patrizio Urzi: Hello. Good afternoon.
+
+a78665d4-0303-4cb6-a652-ff1240536dc7
+00:06:44,070 --> 00:06:47,830
+Paolo Patrizio Urzi: hey hey tamanda it's paulo from factorial let
+
+8a1ad777-3b36-4c38-af7c-177fe4522445
+00:06:48,790 --> 00:06:50,850
+Tamanda Chikopa: me join okay okay
+
+70547093-deb6-48d9-8fc6-c5fcb31c4ad2
+00:06:50,850 --> 00:06:52,870
+Paolo Patrizio Urzi: shot thank you yeah
+
+b29c2238-7c89-454a-9ff0-930061743550
+00:06:55,530 --> 00:07:01,570
+Paolo Patrizio Urzi: she's gonna join she forgot man i even sent her an email as well this morning you
+
+d01a35ed-580f-4bc7-8c75-300261618fcd
+00:07:01,570 --> 00:07:02,890
+Victor Henrique Aguiar Gutierrez Duarte: sent that email yeah
+
+15097284-86cd-4dd2-899c-25a688dcedb4
+00:07:02,890 --> 00:07:06,810
+Paolo Patrizio Urzi: this morning i sent a reminder email as well yeah phone
+
+7cbf4763-0f6b-4650-b485-b2939b2d0ca5
+00:07:06,810 --> 00:07:08,210
+Victor Henrique Aguiar Gutierrez Duarte: calls are more
+
+e1dd7176-3bed-4498-bde8-de6e4360a6e3
+00:07:08,210 --> 00:07:15,310
+Paolo Patrizio Urzi: and i think what's what's up yeah and i think i'm gonna start calling them in the morning on what's up and just be like hey good morning happy friday
+
+06208c43-1c0f-4f65-a170-a1618b300674
+00:07:17,700 --> 00:07:19,540
+Victor Henrique Aguiar Gutierrez Duarte: Can I confirm your attendance?
+
+00649c10-0b02-451e-bc14-d32172b4d500
+00:07:21,600 --> 00:07:22,080
+Paolo Patrizio Urzi: Exactly.
+
+81cb4847-bd02-49ad-9df4-5be633f9faba
+00:07:29,580 --> 00:07:46,960
+Paolo Patrizio Urzi: So I'm going to just give a brief explanation on Factorial with my deck, with my slide here. And then I'm just going to go straight into qualification. And then if I miss any questions in terms of qualification, just jump in. Just jump in and be like, how do you do this with this?
+
+712b43f9-63e3-4061-a789-ff231c368e1c
+00:07:47,880 --> 00:07:49,060
+Victor Henrique Aguiar Gutierrez Duarte: Amazing, bro. Amazing.
+
+f67f5754-047a-43eb-90c4-1ebf482e7996
+00:08:15,420 --> 00:08:17,800
+Paolo Patrizio Urzi: Maybe let me send a freaking link on WhatsApp.
+
+ba08ba77-cb5a-4ef6-b5bb-03efd110b7ad
+00:08:21,420 --> 00:08:26,540
+Paolo Patrizio Urzi: I have to, you know, hold their hands through this whole process of joining them.
+
+0c2fab02-857a-449e-aea7-42157d783f14
+00:08:28,850 --> 00:08:29,330
+Victor Henrique Aguiar Gutierrez Duarte: Yeah.
+
+263cd6f4-f672-41d4-a050-cbc83bb892f0
+00:09:16,460 --> 00:09:16,940
+Tamanda Chikopa: There
+
+0034fca9-464b-46da-818c-d21537c1c7cf
+00:09:30,890 --> 00:09:31,150
+Tamanda Chikopa: we go.
+
+801f7830-4472-455d-8260-3f3e400ee00a
+00:09:37,210 --> 00:09:47,930
+Paolo Patrizio Urzi: Good afternoon, Tamanda. Or should I actually say, I should say Muli Bwanji. I'm from Zambia, so I know that's how we greet each other. I don't know if you can hear us.
+
+f3720a39-df53-4e26-aac0-613b2db4e75d
+00:09:52,400 --> 00:09:54,400
+Tamanda Chikopa: I can hear you. Can you hear me?
+
+92d2fd7c-929e-4b31-91ab-c32186ec8e0e
+00:09:54,720 --> 00:09:56,700
+Paolo Patrizio Urzi: Yeah, I can hear you now. How's your Friday?
+
+68bf8636-f01d-4ca7-bc12-cfbe335f5c6f
+00:09:56,700 --> 00:10:05,120
+Tamanda Chikopa: We don't use Google Meet. So apparently I was supposed to do some checks first or something. I'm using my phone because my laptop can't work.
+
+182e867c-4c9b-40a4-8205-44e89dc87929
+00:10:05,400 --> 00:10:06,520
+Paolo Patrizio Urzi: Do you normally use Teams?
+
+b19c6523-9b84-4f1c-8626-99e4ac3648ea
+00:10:07,240 --> 00:10:08,760
+Tamanda Chikopa: We use Teams, yeah.
+
+f06f7d0b-a27c-49f0-93df-a427b43d10f8
+00:10:09,160 --> 00:10:22,300
+Paolo Patrizio Urzi: Okay. I mean, we're a Microsoft partner, so I normally should be sending them through Teams anyway. But a lot of people like Google as well. How's your Friday going so far? Not good.
+
+49dd644e-0d8d-4dbf-94a0-99ff1fd3a1c3
+00:10:22,680 --> 00:10:26,880
+Tamanda Chikopa: I'm coming from the hospital. Yeah, I'm not feeling well, but yeah.
+
+56aa0fe4-dc32-4914-bbf8-53f7b8ef77bf
+00:10:27,520 --> 00:10:28,420
+Paolo Patrizio Urzi: Sorry about that.
+
+14b43f3e-2907-47cb-8379-f13c8ffc2de3
+00:10:28,980 --> 00:10:30,360
+Tamanda Chikopa: No, I'm good. I'm good.
+
+a63d1ef1-7a27-4276-9f35-4166c3525a51
+00:10:30,600 --> 00:11:04,800
+Paolo Patrizio Urzi: We won't make it too long today and then I'll definitely let you go. You enjoy your weekend. But yeah, I just wanted to quickly introduce Victor. Victor is also from Factorial. He's actually based in Barcelona because that's where the company HQ is. And basically he's the... you know expert account executive so normally i bring him to the first meetings when we do the qualification and learn a little bit about the companies that we're going to potentially work with victor is always to you know ask the important questions and uh you know just personalize it so that you know you get exactly what you need thank
+
+62e59f74-7016-47fc-b315-a7a4e9b3106b
+00:11:04,800 --> 00:11:18,610
+Victor Henrique Aguiar Gutierrez Duarte: you for that direction paulo that's nice to meet amanda i'm kind of a sales engineer so i'm here to actually to hear you the best i can and to propose a more tailored presentation in the coming days okay okay
+
+84a8cb6c-1bae-407d-924e-99fb1c54dce5
+00:11:18,610 --> 00:11:19,870
+Tamanda Chikopa: cool perfect
+
+0c1ccb92-f62c-4986-a91c-f5aeae08339b
+00:11:19,870 --> 00:12:08,020
+Paolo Patrizio Urzi: um so if you're on your phone i'm gonna i am gonna still share my screen but i'm gonna send you the slide anyway Okay. A brief explanation quickly of what Factorial is, just so you have an idea. I know that you guys were in Cape Town, so you had like some brief interaction with us. But just to bring it back, you know, Factorial is based in Barcelona. That's where our HQ is. And we're a very, very far-growing HR company. Normally, actually now what we're naming ourselves is we're like an AI workforce operational platform, more so than... our platform on its own because we have a lot of capabilities which i'll explain but we investing a lot into the product we have a lot of customers in africa we have over 100 customers You know, we're like Moet and Hennessy, Ports of Namib, so on and
+
+7fc11321-6ed3-4d81-9b73-7fc15818e167
+00:12:08,020 --> 00:12:56,570
+Paolo Patrizio Urzi: so forth. You know, we're really expanding the, you know, the African partnership. So I'm the partnership manager here. So I don't do direct sales, but I partner with all these different companies. But sometimes I obviously do these demos and presentations with people who are interested in the platform. We're a very big company. So we're around right now actually 1,700 people instead of 1,300. This slide's a bit old. And actually yesterday we got a Series D investment of 150. which makes us at a valuation of 2.5 billion. So we're forever growing. You know, we're putting a lot of money into the product. Every single month there's product updates and we're expanding. So basically the core functionalities of what we are is, you know, we do everything from employee platforms. So benefits, reports, workflows, operational sites, so time tracking, time off, everything on the shift management, e-signature.
+
+226918b5-1098-4d98-b7bf-2518d0f269cd
+00:12:56,930 --> 00:13:42,850
+Paolo Patrizio Urzi: On the talent side, we have a very, very strong talent side doing recruitment, learning management. So this links directly to the performance of the company and all the different employees for all the different groups. And then also on the finance side as well. So, you know, expenses, project management, procurement. Now, we are all in one system, you know, but we are modular in a sense that if you just want time off, if you just want time tracking, then you can get it. And we're cloud-based as well and AI-powered. Like I said, we're partnered with Microsoft. So we have Microsoft Azure's, you know, AI capabilities within Factorial and it's an AI agent. So, you know, it co-creates with you. It's not like ChatGPT where you just ask for an answer and it gives you. um and in terms of like an api we you know we
+
+3a7257b5-b797-412f-b2e7-58782e2a3beb
+00:13:42,850 --> 00:14:28,820
+Paolo Patrizio Urzi: integrate with the full microsoft suite so business central dynamics 365 microsoft teams outlook and everything on the payroll side as well so like sage for example payspace which is very big in africa and then on the recruitment side linkedin slack and then we have various other integrations as well um in factorial okay like i said we are azure um you know we are partnered with microsoft so the ai is building on a day-to-day basis now there's even more improvements so like this is really old what you see like this was only two months ago um so now it's like it looks a lot different there's prompts that you can give it and you know it we're scaling it uh on another level there's no other competitor on the market right now that really have the capabilities that we have um and you know what factorial
+
+b0b5bd8f-5017-42f4-a9e1-ab0e23aff074
+00:14:28,820 --> 00:15:10,500
+Paolo Patrizio Urzi: does it automates and improves your business in terms of the hr functionality and also the business management so everything on compliance side productivity boost you know quality of work it reduced costs for a lot of different things it minimizes errors and it also improves the employee experience as well because there's a you know self-service portal we have mobile friendly we have a mobile app So it's easy to put in your time off or put in your shifts, for example. And it's also good on the manager side as well. You have a lot of analytics. Everything is data-driven. We have built-in reports, customized reports, and you can do a lot of things in factorial. So do you have any questions so far? I know I'm talking a lot. I love my voice. But if you have any questions, stop me here.
+
+4370071a-02f7-4cd6-8161-49402e2e806c
+00:15:13,270 --> 00:15:15,450
+Tamanda Chikopa: No questions. No questions yet.
+
+dd6f734d-2250-4049-8e27-79f286ee12bb
+00:15:16,130 --> 00:16:05,550
+Paolo Patrizio Urzi: So why we're coming into Africa is like, you know, we see a significant gap in the African market in terms of digitalization. A lot of companies use like SAP, Oracle, UKG, for example, big enterprise companies, which is very expensive and also lacks a lot of functionalities. And it's also not modular as well. And so that's why, you know, we're betting on Africa and we're compliant. All of the countries that we work in, you know, we have the compliance and employment codes, data protection, and we really, really tailor it specifically for the markets that we're going into. Like I said, we serve over now actually 17,000 customers worldwide. And we have massive customers like Mohit and NSE, Five Guys, Tech Mahindra, Teleperformance, you know, Baker Tilly in the UAE and in the UK, you name it. We work in various different markets. So yeah, I just
+
+31455c80-9c59-4305-a952-a1b6d067825d
+00:16:05,550 --> 00:16:18,860
+Paolo Patrizio Urzi: wanted to brief you just briefly. go over factorial and what we do. And I'm actually going to put the floor back onto you if you don't mind, Tamanda. At Ilovo, you are the HR Business Consultant, is that correct?
+
+b665ba7c-65c1-4fa4-94bd-8a3499abe1ca
+00:16:19,830 --> 00:16:22,950
+Tamanda Chikopa: I'm the HR Services and Rewards Specialist.
+
+8e2bdc6c-5537-4235-a76b-4c32005b547a
+00:16:23,250 --> 00:16:36,610
+Paolo Patrizio Urzi: Specialist, okay. Amazing. And so when you got in contact with me or when you wanted to see a demo, I mean, what HR systems do you currently have at Ilovo or is it specifically one HR system that you have?
+
+a206af74-41f3-410e-bc29-eaa53afbe4f9
+00:16:38,030 --> 00:16:46,830
+Tamanda Chikopa: So yeah, we're using SAP now. We just did SuccessFactors SAP in 2022.
+
+4d4a4d4e-ab34-4535-8e2c-25da03c79660
+00:16:50,980 --> 00:16:54,500
+Tamanda Chikopa: So that's when we got the SAP SuccessFactors.
+
+b7e9b207-06a8-4ddd-9c18-fd5fd0064826
+00:16:57,020 --> 00:17:11,140
+Tamanda Chikopa: We didn't buy a full... the full SAP. So we're still doing EPM manually. We call it the Engaged Performance Management. So performance management is still manual at the moment.
+
+341955cb-c215-4d82-aa23-2c0c8b9cce93
+00:17:14,220 --> 00:17:17,900
+Tamanda Chikopa: So yeah, so we're actually just using SuccessFactors for
+
+f113450b-42de-4afd-86af-990b540f9bb0
+00:17:21,020 --> 00:17:29,320
+Tamanda Chikopa: you know, the check-ons, and then we have another system, which is Qlik, which now does the analytics for us. Okay.
+
+e16ba833-64d5-4706-963d-d5bca971e9fe
+00:17:29,620 --> 00:17:31,480
+Paolo Patrizio Urzi: And is that integrated within SAP?
+
+724425ff-620f-4af2-905f-c5a8e195dc7b
+00:17:32,280 --> 00:17:33,900
+Tamanda Chikopa: Yes, it's integrated, yeah.
+
+538f1d16-b6c5-4d6b-a718-5f911376a4ac
+00:17:34,560 --> 00:17:35,020
+Paolo Patrizio Urzi: Okay.
+
+434ef695-02f4-473d-82f1-4aa90fb6833d
+00:17:35,680 --> 00:17:50,480
+Tamanda Chikopa: So there's space space as well that we use. Yeah. And then we are migrating to UKG. I think next month we are in the testing phases now. For time and attendance.
+
+1304288d-541b-47e7-89e5-b4eb5e8702d1
+00:17:51,120 --> 00:17:51,640
+Paolo Patrizio Urzi: Okay.
+
+28bce2af-d460-45c0-a6fd-a963d3601ad7
+00:17:52,480 --> 00:17:52,920
+Tamanda Chikopa: Yeah.
+
+c271a8a1-550e-4cba-a2cc-524ab93441d1
+00:17:53,380 --> 00:18:06,700
+Paolo Patrizio Urzi: But from what I understand, you're using quite a lot of systems, which then have to be integrated with each other for separate things. So time and attendance, UKG, Payspace, obviously for payroll, Qlik, you said for performance, right?
+
+3597568f-c74a-403c-8d26-9df379a735f3
+00:18:07,480 --> 00:18:12,440
+Tamanda Chikopa: No, Qlik is just for dashboards and analytics, they're reporting.
+
+edb8507c-fa95-4325-a7a7-9e8d3c6be5fe
+00:18:12,740 --> 00:18:21,650
+Paolo Patrizio Urzi: Analytics, okay. And then obviously SAP, that you're doing some things manually. so you have epm for performance etc yeah
+
+1979780d-04da-440f-a289-06581d6baaa8
+00:18:21,650 --> 00:18:22,410
+Tamanda Chikopa: okay
+
+62c6e183-d23f-4c65-9e82-355989648f88
+00:18:22,410 --> 00:18:33,430
+Paolo Patrizio Urzi: understood and how how many employees do you do you currently have because i know ilovo sugar here in south africa you know it's very big and in zambia as well but in malawi how many employees are there
+
+a6350d35-8645-45f7-a4ed-c558884e51d6
+00:18:35,100 --> 00:18:38,900
+Tamanda Chikopa: So as of today, I have 7,793.
+
+3d3e4948-1dba-42ea-b5cf-71218c4e225f
+00:18:42,060 --> 00:18:51,980
+Tamanda Chikopa: That's everyone, yeah? Seasonals, permanents, expats, whatever type of employee you might think of, we have that.
+
+8680a9cb-3205-4cee-9a10-241bbd8636d1
+00:18:54,240 --> 00:19:04,190
+Tamanda Chikopa: At peak, we can get to 9,000, 10,000 employees. So we have three sites. Three sites in Malawi.
+
+f3a34afd-7469-4265-9052-317dfea3c100
+00:19:04,410 --> 00:19:04,990
+Paolo Patrizio Urzi: Oh, yeah.
+
+c5ae4115-533f-4a02-b499-9e13775c1d02
+00:19:05,750 --> 00:19:28,130
+Tamanda Chikopa: I am at the head office. And then there are now the actual factories in the two sites. That's where all the numbers are sitting. So at head office, you'll be looking at 200 people. But in the sites, inshallah, being the biggest, we'll be looking at 5,000, 6,000 people. And then Duangwa, about 3,000 there around.
+
+16712526-a6cf-4de2-9b1e-2043203c0e13
+00:19:28,870 --> 00:19:29,390
+Paolo Patrizio Urzi: Okay.
+
+5b36627a-f814-4dd3-8c56-7936f7e620b1
+00:19:31,550 --> 00:19:34,430
+Paolo Patrizio Urzi: Victor, jump in. I know you want to ask a question. I can see.
+
+fbcc5f68-3962-4dbd-82a1-dd8b7c20d15b
+00:19:35,790 --> 00:19:51,970
+Victor Henrique Aguiar Gutierrez Duarte: It's such a big operation that you have, Tamanda. I'm wondering how your HR team is organized. How many people work in HR? Do you have separate teams to handle the payroll, to handle the recruitment? How do you organize yourselves?
+
+b7e38aab-c9d9-436d-8485-6836b7fd6278
+00:19:53,550 --> 00:20:16,870
+Tamanda Chikopa: In HR, we have business partners that do the recruitment. and then we have my team now the services team that handles the the system where they capture and all that that that gets into one space and then the data is available for reporting in Qlik Sense so like in the services team we're looking at about 32 people
+
+f4ec5112-18f4-4dc4-9400-0dd53772fe1d
+00:20:18,150 --> 00:20:29,690
+Paolo Patrizio Urzi: Okay. Two people. And I think I spoke to... Is Kumbo the director of human resources?
+
+1a9f25b7-c874-4883-9f2e-61f1e7957eb2
+00:20:30,450 --> 00:20:56,000
+Tamanda Chikopa: Yes. Kumbo is the HR director. So I report to Kumbo as HR director. She's moved out for four months. Okay. until august because we're doing some reorganization so she would want to just concentrate on that uh but um but yeah so that would be that would be combo uh hr director uh what else would you want to know uh
+
+300fd3c5-5409-4092-9bd0-76cd368b0790
+00:20:56,000 --> 00:21:05,240
+Paolo Patrizio Urzi: no actually i'm very curious about the recruitment saying like you know you're at seven thousand seven hundred ninety three and you wanna like you you say like When it's 9,000.
+
+6fd3e7f2-1451-47c9-838a-74b6e60dc14b
+00:21:05,440 --> 00:21:16,800
+Tamanda Chikopa: On recruitment, I wish we knew factorials three, four months ago, because we now say we're looking for ATS. Yeah,
+
+f75b136c-d995-407c-95fb-eb2d918f838e
+00:21:18,840 --> 00:22:07,170
+Tamanda Chikopa: so I don't know what phase they're at, but that's handled by the talent guys to say, how do we make it easier when it comes to recruitment? Because in Malawi as well, Elova is the biggest. biggest employer so we do get a lot of applications um on any job so how do you how do you really streamline them to to get you to the system to to shortlist for you and then make it easier because at the moment it's still money but i know they were testing it i'm not sure how far they've gone with it but they haven't really um they haven't really uh uh implemented it did like go live because i would have known about it so maybe they're still they're still building it but uh but that's one of the areas that we we it is quite hectic for for the
+
+dda0dae0-6593-4d5c-b96f-55c2cfe173d8
+00:22:07,170 --> 00:22:56,980
+Tamanda Chikopa: hr business partners to do because if you just do one one advert you get 1 000 applications how do you should list that so so that's that's the part that i know uh yeah they want to really try close i know performance management nobody's talking about it but it's still money and it's quite it's quite hectic i think i think and the business like ilovo should be able to do this with the system um but yeah so with 400 plus managers Okay. Yeah, it becomes hectic to do with performance management manually. Chances are we don't know where those things are sitting, even if we're keeping anything. But yeah, somehow it works, but I don't think we're optimal. Yeah.
+
+6e4141bf-b45c-4c1e-801c-0a3a875035a9
+00:22:57,540 --> 00:23:05,360
+Victor Henrique Aguiar Gutierrez Duarte: When does the next cycle start, Samantha, the performance revelations, like in July? September.
+
+9f33f40b-f037-4db8-a775-3ceb9b2d9e01
+00:23:09,110 --> 00:23:17,870
+Victor Henrique Aguiar Gutierrez Duarte: Okay. And how do you plan to handle this performance evaluation? Should we try to make it easier for you?
+
+48fd6065-5a6a-434d-be0d-55a486307b76
+00:23:20,100 --> 00:23:57,480
+Tamanda Chikopa: So that's why I think when I was talking to Paolo to say, I think when I know what you guys would do, then I would bring in the people that actually handle those things to see if there's anything, there's further conversation that I would want to engage you in. But Chido is the one doing talent. uh sorry performance management handling that piece of work so i think that would be a conversation and maybe akumbo and the leila and the moses these are the hrmu heads in the sites to just hear what you guys are offering i mean it doesn't have to understand what else is out there yeah
+
+8acee1e9-5581-40b4-ae82-c1b70ddbb5ae
+00:23:57,480 --> 00:23:57,680
+Paolo Patrizio Urzi: and
+
+c1a0c1db-35b9-42d1-901f-479176188a66
+00:23:57,680 --> 00:24:05,720
+Tamanda Chikopa: then hopefully hopefully it it gets into that at the moment we don't have anything performance management from a system point of view
+
+990169a4-1ad4-4ccf-a95f-d62c5bcc86d1
+00:24:06,140 --> 00:24:53,100
+Paolo Patrizio Urzi: Yeah, I understand. I mean, the good thing is we're modular. Like you don't have to like go for a specific package, right? So we can start off in theory in that sense that because you guys already have a lot of systems in place at the moment and you're looking into UKG for the time and attendance and, you know, it would be maybe good to, you know, plug in people from the recruitment, from the performance side, you know, from, you know, time and attendance side to C factorial at least. um not any to make any decision you know based on those but more so focus on the performance side for you you know to help you especially if the performance reviews are going to be coming up in september we're obviously going to prepare for that and you know get things aligned yeah victor what
+
+ed549159-d6e6-4876-a1fe-544ccd1cae33
+00:24:53,100 --> 00:25:02,760
+Victor Henrique Aguiar Gutierrez Duarte: about service or trainings um do you have solutions for these areas amanda or is included on the performance evaluation that you don't have any tool for that
+
+cd273ec9-31ac-457c-9668-6428052e7eca
+00:25:04,770 --> 00:25:50,990
+Tamanda Chikopa: The trainings, we're using SuccessFactors, so we're able to capture trainings that are done. We have training centers in the sites, so we're just capturing them in SuccessFactors. Then we have Abisuga, Abisuga Compass, we call it Abisuga Compass, where we put in our trainings in there, and people do their trainings and then get certifications and then they're done. But I think most of the trainings that are there are compliance. compliance trainings if that makes sense compliance and mandatory trainings uh that is done we're also using linkedin at the moment we pay the subscription for that so yeah i think a little bit of everything uh is happening i'm not sure how that would play out in what you can open
+
+0c252830-f5c1-48d7-bfb6-e807f52e3a99
+00:25:58,000 --> 00:25:59,740
+Victor Henrique Aguiar Gutierrez Duarte: are losing you a little bit a
+
+98420f78-951f-4587-bf50-faa8ad1a2036
+00:25:59,740 --> 00:26:00,880
+Paolo Patrizio Urzi: little bit yeah but
+
+5c8126a0-8b79-4dc3-a27d-d5bd54a309ab
+00:26:00,880 --> 00:26:02,180
+Tamanda Chikopa: yeah i'm here now
+
+36f0ed4d-e15a-4353-9a52-ab0ae2103b27
+00:26:05,890 --> 00:26:41,260
+Paolo Patrizio Urzi: In terms of the offerings, like I said, you know, we've, you know, very expansive in terms of what we can offer at Factorial. You know, everything that we mentioned, we can pretty much, we can cover. But it's just the fact of obviously because there's so many people in the HR department, it's obviously discussing, you know, segmenting all the discussions. Ideally, I'm just curious to know, have you guys looked into an all-in-one HR system in the past? Or was it ever in discussion in management that you'd want to have one system to cover everything?
+
+ff6af663-23c4-46c0-b6ce-1fef74d542a9
+00:26:42,820 --> 00:27:22,920
+Tamanda Chikopa: Yeah, I think when SAP was coming in, I think for me, I was like, yeah, this is it. I have workforce planning, I have performance management, I have the whole data recruitment and all that. But yeah, we're just buying what we could. I mean, they're expensive as well. So I don't want to just assume that we're doing it deliberately. But I think having one be everything would be ideal. But I think when these systems are basically...
+
+0c242310-8e7b-4239-88e8-2fb1668a86b8
+00:27:26,310 --> 00:27:43,810
+Tamanda Chikopa: We're given to countries from CENT. It's just now that we're getting the power. They're asking us to get our own solutions for our own problems. Maybe that's how now I think there's going to be a shift in terms of how we do. So for the first time, we're doing our own survey.
+
+4f62713c-2528-49ae-85a0-15bf123b0981
+00:27:44,210 --> 00:27:45,730
+Paolo Patrizio Urzi: Nice. Okay.
+
+590e8c72-fbc0-435a-8369-d5e157110a1c
+00:27:46,470 --> 00:28:22,470
+Tamanda Chikopa: So I think we're getting into a shift where we're saying how do we handle our problems. Yeah. by finding our own solutions that work in our country. So I think having one system would be ideal if I was to be asked to push in that. But that's not where we are. And I know that we're paying quite a number of service providers to provide us with all these systems. And I think that's something that maybe... um i'm sure someone can listen to yeah
+
+d0ac762c-798f-4d1d-8b9e-cbde81dd8d76
+00:28:22,470 --> 00:28:43,070
+Paolo Patrizio Urzi: yeah definitely i mean we're here to listen we're here to help you know um you know ideally like if you are paying for systems you want everything to be working pretty well and also integrate it together seamlessly so that there isn't any manual operations that you have to do so i feel your pain i really do um yeah um i don't know victor if you want to add anything
+
+1ed3ad4a-cab1-4523-9103-6987894dd8e0
+00:28:43,920 --> 00:29:12,100
+Victor Henrique Aguiar Gutierrez Duarte: I'm just actually thinking about everything. And like you said, Paolo, they're a huge company. They are segmented on topics. But I would love to deep dive on each one of these with the responses for this, Amanda, and to give a proper visualization of what we can do in performance, on engagement, on trainings as well. So what do you think would be the next steps for this, Amanda?
+
+f4c2c330-c226-45fc-9ce4-da2d729bdff6
+00:29:13,320 --> 00:29:27,680
+Tamanda Chikopa: The next steps would be, so if you want to look at performance management, then I can get the people to give me a date when you can meet them. I don't know what else you would want to explore further.
+
+566c37c5-41e0-4655-b3f5-77a849e88f26
+00:29:29,420 --> 00:30:04,970
+Paolo Patrizio Urzi: We can start off with performance management. we can do a demo based on that and how it accompanies like, you know, all the other features that, you know, are in factorial because everything links with each other. You know what I mean? Like performance links with shifts, links with the NPS scores, links with when they onboard to when they offboard. So it all, you know, intertwines with each other. So we'll definitely show you. focusing on performance but we'll definitely show you the system and then if there is any interest which sparks you then you can obviously liaise that onto the the other teams like the recruitment team etc and we can go from there
+
+eb7eb73c-1eb0-4977-82ac-90d88f13c209
+00:30:08,190 --> 00:30:08,630
+Paolo Patrizio Urzi: Okay.
+
+b1cb10bc-8aa4-46ad-bea3-b4b75f0ca581
+00:30:08,630 --> 00:30:10,170
+Tamanda Chikopa: So that's fine. That's okay.
+
+6ca3889b-b2fb-404f-8139-e2e22479aa81
+00:30:11,270 --> 00:30:15,170
+Paolo Patrizio Urzi: When do you think, is it a busy month for you guys at Ilovo right now in Malawi?
+
+38f8d6c6-f213-41fd-9e36-1f8403907e8f
+00:30:15,730 --> 00:30:20,550
+Tamanda Chikopa: Yeah, so this is when we start our season. So a lot of recruitment, a lot of capturing for us.
+
+b7915373-d5d2-4e11-9554-cef8706a2ad2
+00:30:22,910 --> 00:30:26,150
+Tamanda Chikopa: We're doing reorganizations, obviously it's just going to get hectic.
+
+62039f85-da28-46b4-824f-d46e1c80648c
+00:30:28,610 --> 00:30:36,470
+Tamanda Chikopa: But yeah, I'm sure we can find some time, some one hour, 30 minutes in there to just look at the... The demo.
+
+03a5d512-7d48-4cff-b03a-9b08fe3c38f0
+00:30:36,890 --> 00:30:45,250
+Paolo Patrizio Urzi: Yeah, and who would be, so yourself would be responsible for joining that meeting, but who else in the performance team would be joining, ideally?
+
+f2059683-604b-4ef6-823d-ebc8f0063934
+00:30:45,310 --> 00:31:06,980
+Tamanda Chikopa: So I would, I guess, so you're just doing a demo. Yeah. Yeah, so I would bring in the BPs, the HR new heads in there, the training team, just for them to see how life would be. Yeah.
+
+a33df8d5-ea28-424d-828f-ded6d5c00675
+00:31:10,140 --> 00:31:15,060
+Tamanda Chikopa: Because I know they're grumpy all the time when they're doing all the paperwork.
+
+d36a6515-bd11-4792-86c2-00cd3ac72b3a
+00:31:15,560 --> 00:31:26,640
+Paolo Patrizio Urzi: I can imagine, yeah. Especially if they're doing recruitment now and you have like 500 applicants. Yeah, to go through that manually, it must take a week, two weeks. I don't know.
+
+a7a91295-c478-4330-a565-d079a2a0a26b
+00:31:27,220 --> 00:31:29,960
+Tamanda Chikopa: Maybe they don't even to at least at all.
+
+99dec1cb-7cf4-4543-a035-e045b5bf87a7
+00:31:32,980 --> 00:31:34,300
+Tamanda Chikopa: There's a risk there.
+
+909008c7-8f47-45eb-97bd-f73591d82de9
+00:31:34,900 --> 00:31:43,960
+Paolo Patrizio Urzi: Yeah, that's true. Okay. That's perfect. Ideally, when do you think in the month, like second week of June, third week of June?
+
+bd9afa51-d716-4900-9954-2b688143b36f
+00:31:46,410 --> 00:31:53,070
+Tamanda Chikopa: Okay, can we maybe have a conversation when I'm in the office like next week, maybe on WhatsApp? I think you called me on my number, no?
+
+c8a80272-11bd-4c98-b14c-300bffd78a53
+00:31:53,290 --> 00:31:54,910
+Paolo Patrizio Urzi: Yeah, I did. That was my number.
+
+82d6c74c-8777-46fc-9eba-5df392071322
+00:31:54,930 --> 00:32:02,050
+Tamanda Chikopa: You can just maybe WhatsApp and then I can get a proper date after I've talked to a few guys.
+
+723c3a7a-6773-4c87-92e3-37ff886b0929
+00:32:03,540 --> 00:32:19,680
+Paolo Patrizio Urzi: What I'll do is, and then I'll send you some information over on email. So I'll send you like a pitch deck on, again, what I showed you briefly, and then I'm going to show you specifics. So performance section, recruitment section, time and attendance. You can share that to the relevant teams, and then we can touch base next week.
+
+f5dd30ca-c451-4a93-beb5-245a0e5a0b81
+00:32:20,340 --> 00:32:22,140
+Tamanda Chikopa: All right. No, that's fine. That's okay.
+
+c79787b4-b7a0-4c92-b9ee-915dbc876bfe
+00:32:22,780 --> 00:32:24,620
+Paolo Patrizio Urzi: Perfect. Okay.
+
+17ac9510-b904-427a-a798-dff54212b64b
+00:32:26,200 --> 00:32:26,940
+Tamanda Chikopa: All right.
+
+2b3cd3b5-460b-4047-803d-cf8ad3b41531
+00:32:27,240 --> 00:32:33,060
+Paolo Patrizio Urzi: Thanks so much, Samantha. I'll let you go. Have a lovely Friday. I really appreciate the sit down and chat.
+
+95e72385-c4b0-4a2d-8f38-152546360aa6
+00:32:33,520 --> 00:32:37,960
+Victor Henrique Aguiar Gutierrez Duarte: Thanks for picking up the call while being sick, Amanda.
+
+2eb077dd-da8e-4963-88f4-4d3e4c49e51e
+00:32:38,200 --> 00:32:53,400
+Tamanda Chikopa: I'm so sorry. I knew I said one o'clock. There was a time around nine-ish that I was saying, maybe I should just reschedule. And then I was like, this will be the third one. So maybe I should just, you know, woman up and show up to this speech.
+
+d536388b-31a7-4a13-9611-21c708fcaf49
+00:32:54,500 --> 00:33:02,000
+Paolo Patrizio Urzi: Oh, you did amazing. And thanks for coming when you're sick. I hope you feel better. Thank you. You have the weekend to rest.
+
+bc651502-7eb2-4087-bb00-8c35bc88c1be
+00:33:03,260 --> 00:33:07,560
+Tamanda Chikopa: All right, cool. No, that's fine. Thanks. I'll find a time next week with the team.
+
+462664dd-e921-444c-a162-2b13659dcc7c
+00:33:08,080 --> 00:33:11,260
+Paolo Patrizio Urzi: Okay, cool. Appreciate it, Amanda. Sweet. Have a lovely day.
+
+d8b40341-5083-4e56-8b80-8541bc585b06
+00:33:12,380 --> 00:33:13,480
+Victor Henrique Aguiar Gutierrez Duarte: Lovely day for you, Amanda.
+
+103f2e46-4bf5-48c4-aa42-f02f7f6f17c9
+00:33:13,680 --> 00:33:14,440
+Tamanda Chikopa: You too. Bye.
+
+1609bd98-2515-4102-b976-592c87908a20
+00:33:14,860 --> 00:33:15,640
+Victor Henrique Aguiar Gutierrez Duarte: Thank you. Bye-bye.
+
+730b2d18-aa78-4b13-b815-b5f06eec0bc5
+00:33:18,330 --> 00:33:18,710
+Tamanda Chikopa: Bye.
