@@ -28,7 +28,7 @@ const Journey = () => {
         </span>
       </header>
 
-      <div className="mx-auto max-w-6xl px-4 py-6 md:px-6 md:py-10">
+      <div className="mx-auto max-w-7xl px-4 py-6 md:px-6 md:py-10">
         <div className="mb-6 md:mb-8">
           <p className="text-xs font-bold uppercase tracking-[0.2em] text-primary">A day in the life</p>
           <h1 className="mt-2 text-3xl font-bold leading-tight md:text-4xl">

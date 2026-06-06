@@ -9,8 +9,8 @@ interface JourneyStepPanelProps {
 
 export function JourneyStepPanel({ step, onWatchDemo }: JourneyStepPanelProps) {
   return (
-    <div className="grid items-center gap-6 lg:grid-cols-[0.9fr_1.1fr]">
-      <div className="relative aspect-video overflow-hidden rounded-2xl border border-border bg-white">
+    <div className="flex flex-col gap-6">
+      <div className="relative aspect-video w-full overflow-hidden rounded-2xl border border-border bg-white shadow-sm">
         <img
           key={step.image}
           src={journeyAsset(step.image)}
@@ -18,25 +18,25 @@ export function JourneyStepPanel({ step, onWatchDemo }: JourneyStepPanelProps) {
           className="h-full w-full object-cover"
           loading="lazy"
         />
-        <span className="absolute left-4 top-4 rounded-full bg-primary px-3 py-1 text-xs font-bold uppercase tracking-wider text-primary-foreground shadow-sm">
+        <span className="absolute left-5 top-5 rounded-full bg-primary px-3.5 py-1.5 text-sm font-bold uppercase tracking-wider text-primary-foreground shadow-sm">
           Step {step.index}
         </span>
       </div>
 
       <div className="flex flex-col">
         <p className="text-xs font-bold uppercase tracking-[0.2em] text-primary">{step.character}</p>
-        <h2 className="mt-2 text-2xl font-bold leading-tight text-foreground md:text-3xl">{step.title}</h2>
-        <p className="mt-2 text-base text-muted-foreground">{step.moment}</p>
+        <h2 className="mt-2 text-3xl font-bold leading-tight text-foreground md:text-4xl">{step.title}</h2>
+        <p className="mt-2 text-lg text-muted-foreground">{step.moment}</p>
 
-        <div className="mt-5 grid gap-3 sm:grid-cols-2">
+        <div className="mt-6 grid gap-4 sm:grid-cols-2">
           <BeforeAfterCard variant="today" text={step.painToday} />
           <BeforeAfterCard variant="factorial" text={step.withFactorial} />
         </div>
 
         {step.quote && (
-          <blockquote className="mt-5 border-l-4 border-primary/50 pl-4 text-sm italic text-foreground/80">
+          <blockquote className="mt-6 border-l-4 border-primary/50 pl-4 text-base italic text-foreground/80">
             &ldquo;{step.quote}&rdquo;
-            <footer className="mt-1 text-xs font-medium not-italic text-muted-foreground">
+            <footer className="mt-1 text-sm font-medium not-italic text-muted-foreground">
               — Tamanda Chikopa, qualification call
             </footer>
           </blockquote>
@@ -61,7 +61,7 @@ function BeforeAfterCard({ variant, text }: { variant: "today" | "factorial"; te
   return (
     <div
       className={cn(
-        "rounded-xl border p-4",
+        "rounded-xl border p-5",
         isToday ? "border-border bg-muted/50" : "border-primary/30 bg-primary/[0.06]",
       )}
     >
@@ -80,7 +80,7 @@ function BeforeAfterCard({ variant, text }: { variant: "today" | "factorial"; te
           {isToday ? "Today" : "With Factorial"}
         </span>
       </div>
-      <p className={cn("text-sm leading-relaxed", isToday ? "text-foreground/70" : "text-foreground/90")}>
+      <p className={cn("text-[15px] leading-relaxed", isToday ? "text-foreground/70" : "text-foreground/90")}>
         {text}
       </p>
     </div>
