@@ -139,7 +139,10 @@ export const NEXT_STEPS: NextStep[] = [
   },
 ];
 
+/** Bump when journey PNGs change — busts browser cache on GitHub Pages. */
+const JOURNEY_ASSET_VERSION = "20260607";
+
 /** Resolve a journey asset path against the Vite base URL (GitHub Pages safe). */
 export function journeyAsset(fileName: string): string {
-  return `${import.meta.env.BASE_URL}journey/${fileName}`;
+  return `${import.meta.env.BASE_URL}journey/${fileName}?v=${JOURNEY_ASSET_VERSION}`;
 }

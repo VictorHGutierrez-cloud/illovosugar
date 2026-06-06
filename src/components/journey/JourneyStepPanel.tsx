@@ -10,12 +10,12 @@ interface JourneyStepPanelProps {
 export function JourneyStepPanel({ step, onWatchDemo }: JourneyStepPanelProps) {
   return (
     <div className="flex flex-col gap-6">
-      <div className="relative aspect-video w-full overflow-hidden rounded-2xl border border-border bg-white shadow-sm">
+      <div className="relative flex min-h-[300px] items-center justify-center overflow-hidden rounded-2xl border border-border bg-white p-4 shadow-sm md:min-h-[480px] md:p-8">
         <img
           key={step.image}
           src={journeyAsset(step.image)}
           alt={step.title}
-          className="h-full w-full object-cover"
+          className="max-h-[420px] w-full object-contain md:max-h-[520px]"
           loading="lazy"
         />
         <span className="absolute left-5 top-5 rounded-full bg-primary px-3.5 py-1.5 text-sm font-bold uppercase tracking-wider text-primary-foreground shadow-sm">

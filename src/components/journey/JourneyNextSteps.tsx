@@ -15,11 +15,11 @@ export function JourneyNextSteps() {
       <ol className="grid gap-5 md:grid-cols-3">
         {NEXT_STEPS.map((step, i) => (
           <li key={step.id} className="flex flex-col overflow-hidden rounded-2xl border border-border bg-background">
-            <div className="relative aspect-video overflow-hidden bg-white">
+            <div className="relative flex min-h-[200px] items-center justify-center overflow-hidden bg-white p-3 md:min-h-[240px]">
               <img
                 src={journeyAsset(step.image)}
                 alt={step.title}
-                className="h-full w-full object-cover"
+                className="max-h-[200px] w-full object-contain md:max-h-[220px]"
                 loading="lazy"
               />
               <span className="absolute left-3 top-3 rounded-full bg-primary px-2.5 py-1 text-xs font-bold uppercase tracking-wider text-primary-foreground shadow-sm">
