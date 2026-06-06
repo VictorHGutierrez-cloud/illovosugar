@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { LayoutGrid } from "lucide-react";
+import { LayoutGrid, Footprints } from "lucide-react";
 import { ColorfulPillCardsGrid, slidePillAccent } from "@/components/ui/card-1";
 import { ParticleTextEffect, CLIENT_PARTICLE_WORDS } from "@/components/ui/particle-text-effect";
 
@@ -26,6 +26,13 @@ const Landing = () => {
                 logo: <LayoutGrid className="h-5 w-5" />,
                 accent: slidePillAccent(0),
                 onClick: () => navigate("/proposta"),
+              },
+              {
+                name: "HR Journey",
+                detail: "A day in the life · 5 steps · before vs. with Factorial",
+                logo: <Footprints className="h-5 w-5" />,
+                accent: slidePillAccent(2),
+                onClick: () => navigate("/jornada"),
               },
             ]}
           />
