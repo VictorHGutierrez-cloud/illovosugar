@@ -12,7 +12,7 @@ export interface JourneyStep {
   title: string;
   character: string;
   /** File name inside public/journey/ — resolved with BASE_URL at render time. */
-  gif: string;
+  image: string;
   moment: string;
   painToday: string;
   withFactorial: string;
@@ -28,7 +28,7 @@ export const JOURNEY_STEPS: JourneyStep[] = [
     index: 1,
     title: "Season starts at head office",
     character: "Tamanda · HR Services & Rewards",
-    gif: "at-the-office.gif",
+    image: "step1.png",
     moment: "The sugar season begins — recruitment and data capture spike at once.",
     painToday:
       "32 people capturing data by hand. Kumbo is away until August. September's review cycle is only three months out.",
@@ -43,7 +43,7 @@ export const JOURNEY_STEPS: JourneyStep[] = [
     index: 2,
     title: "Performance reviews on paper",
     character: "Site Manager · Nchalo",
-    gif: "research-paper.gif",
+    image: "step2.png",
     moment: "A manager runs the EPM cycle the only way available today — manually.",
     painToday:
       "Paper EPM across 400+ managers and three sites. Nobody can see where reviews actually sit.",
@@ -58,7 +58,7 @@ export const JOURNEY_STEPS: JourneyStep[] = [
     index: 3,
     title: "Five systems that don't talk",
     character: "Tamanda · HR Services team",
-    gif: "data-extraction.gif",
+    image: "step3.png",
     moment: "Data moves between SAP, Qlik, Payspace, and UKG — one manual bridge at a time.",
     painToday:
       "SuccessFactors, Qlik Sense, Payspace, UKG — every handoff is manual, every report is rework.",
@@ -72,7 +72,7 @@ export const JOURNEY_STEPS: JourneyStep[] = [
     index: 4,
     title: "Building the case internally",
     character: "Tamanda + stakeholders",
-    gif: "business-deal.gif",
+    image: "step4.png",
     moment: "Tamanda gathers the people who decide — and the arguments to convince them.",
     painToday:
       "1,000+ applications per advert and no system yet. Buy-in from Chido, Leila, and Moses is still forming.",
@@ -87,7 +87,7 @@ export const JOURNEY_STEPS: JourneyStep[] = [
     index: 5,
     title: "Visibility before September",
     character: "Tamanda + Site Manager",
-    gif: "investment-data.gif",
+    image: "step5.png",
     moment: "The September cycle arrives — this time with one source of truth.",
     painToday:
       "Reports scattered across tools. The real risk: reviews that may never get shortlisted at all.",
@@ -99,7 +99,7 @@ export const JOURNEY_STEPS: JourneyStep[] = [
   },
 ];
 
-/** Resolve a journey GIF path against the Vite base URL (GitHub Pages safe). */
+/** Resolve a journey asset path against the Vite base URL (GitHub Pages safe). */
 export function journeyAsset(fileName: string): string {
   return `${import.meta.env.BASE_URL}journey/${fileName}`;
 }

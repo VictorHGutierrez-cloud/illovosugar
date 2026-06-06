@@ -10,15 +10,15 @@ interface JourneyStepPanelProps {
 export function JourneyStepPanel({ step, onWatchDemo }: JourneyStepPanelProps) {
   return (
     <div className="grid items-center gap-6 lg:grid-cols-[0.9fr_1.1fr]">
-      <div className="relative overflow-hidden rounded-2xl border border-border bg-white">
+      <div className="relative aspect-video overflow-hidden rounded-2xl border border-border bg-white">
         <img
-          key={step.gif}
-          src={journeyAsset(step.gif)}
+          key={step.image}
+          src={journeyAsset(step.image)}
           alt={step.title}
-          className="h-[260px] w-full object-contain p-4 md:h-[340px]"
+          className="h-full w-full object-cover"
           loading="lazy"
         />
-        <span className="absolute left-4 top-4 rounded-full bg-primary px-3 py-1 text-xs font-bold uppercase tracking-wider text-primary-foreground">
+        <span className="absolute left-4 top-4 rounded-full bg-primary px-3 py-1 text-xs font-bold uppercase tracking-wider text-primary-foreground shadow-sm">
           Step {step.index}
         </span>
       </div>
