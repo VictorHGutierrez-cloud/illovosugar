@@ -3,9 +3,12 @@ import {
   AlertTriangle,
   Calendar,
   Check,
+  Clock,
   FileText,
-  FolderOpen,
   Link2,
+  Shield,
+  Target,
+  TrendingUp,
   Users,
   Video,
   X,
@@ -42,20 +45,31 @@ const FactorialCard = ({
   body,
   impact,
   light = false,
+  badge,
 }: {
   icon: ReactNode;
   title: string;
   body: string;
   impact?: string;
   light?: boolean;
+  badge?: string;
 }) => (
   <div
-    className={`border-l-4 p-6 h-full ${
+    className={`border-l-4 p-6 h-full relative ${
       light
         ? "border-primary bg-primary/[0.04] border border-l-4 border-foreground/10"
         : "border-primary/80 bg-white/5 border border-white/15"
     }`}
   >
+    {badge && (
+      <span
+        className={`absolute top-4 right-4 text-[12px] font-bold uppercase tracking-wider px-2 py-1 ${
+          light ? "bg-primary/10 text-primary" : "bg-white/10 text-white/90"
+        }`}
+      >
+        {badge}
+      </span>
+    )}
     <div className="flex items-start gap-4 mb-3">
       <div
         className={`shrink-0 w-10 h-10 flex items-center justify-center ${
@@ -64,7 +78,7 @@ const FactorialCard = ({
       >
         {icon}
       </div>
-      <h3 className={`text-[22px] font-bold leading-snug ${light ? "text-foreground" : ""}`}>{title}</h3>
+      <h3 className={`text-[22px] font-bold leading-snug pr-16 ${light ? "text-foreground" : ""}`}>{title}</h3>
     </div>
     <p className={`text-[18px] font-normal leading-relaxed ${light ? "text-foreground/75" : "opacity-75"}`}>
       {body}
@@ -81,27 +95,48 @@ const FactorialCard = ({
   </div>
 );
 
+const ActCard = ({
+  act,
+  title,
+  body,
+  quote,
+}: {
+  act: string;
+  title: string;
+  body: string;
+  quote?: string;
+}) => (
+  <div className="border border-white/20 bg-white/5 p-6 h-full flex flex-col">
+    <p className="text-[14px] font-bold uppercase tracking-[0.25em] opacity-60 mb-3">{act}</p>
+    <h3 className="text-[24px] font-bold mb-4 leading-snug">{title}</h3>
+    <p className="text-[17px] font-normal opacity-75 leading-relaxed flex-1">{body}</p>
+    {quote && (
+      <blockquote className="mt-5 pt-4 border-t border-white/15 text-[16px] italic opacity-80 leading-relaxed">
+        &ldquo;{quote}&rdquo;
+      </blockquote>
+    )}
+  </div>
+);
+
 export const slides: SlideData[] = [
   {
     id: "cover",
-    title: "Welcome",
-    summary: "Illovo Sugar · 7,793 employees · Malawi",
+    title: "Your story",
+    summary: "Illovo Sugar · accountability without control",
     icon: <FileText size={24} />,
     bg: "dark",
     content: (
       <div className="flex flex-col justify-center h-full px-[100px]">
         <SectionLabel>Partnership Proposal</SectionLabel>
-        <h1 className="text-[80px] font-bold leading-[1.08] mb-6 max-w-[1400px]">{d.empresa}</h1>
-        <p className="opacity-90 font-normal mb-8 text-[36px]">{d.tagline}</p>
+        <h1 className="text-[80px] font-bold leading-[1.08] mb-4 max-w-[1400px]">{d.empresa}</h1>
+        <p className="opacity-90 font-bold mb-2 text-[40px] max-w-[1200px]">{d.storyHeadline}</p>
+        <p className="opacity-80 font-normal mb-8 text-[28px] max-w-[1200px]">{d.storySubline}</p>
         <blockquote className="border-l-4 border-white/40 pl-8 mb-8 max-w-[1100px]">
           <p className="text-[24px] font-normal italic opacity-90 leading-relaxed">&ldquo;{d.clientQuote}&rdquo;</p>
           <footer className="text-[18px] font-bold opacity-70 mt-3 not-italic">— {d.clientQuoteAttribution}</footer>
         </blockquote>
-        <p className="opacity-75 font-normal text-[26px] max-w-[1200px]">
-          {d.location}
-          {d.totalColaboradores > 0 ? ` — ${d.totalColaboradores} employees` : ""} · {d.bundleName}
-        </p>
-        <div className="mt-14 flex items-center gap-5">
+        <p className="opacity-75 font-normal text-[22px] max-w-[1200px]">{d.tagline}</p>
+        <div className="mt-12 flex items-center gap-5">
           <div className="w-11 h-11 border border-white/30 flex items-center justify-center bg-white/5">
             <span className="text-[20px] font-bold">F</span>
           </div>
@@ -115,113 +150,131 @@ export const slides: SlideData[] = [
   },
 
   {
-    id: "challenges",
-    title: "Your challenges",
-    summary: "5 pains · from discovery call",
-    icon: <AlertTriangle size={24} />,
+    id: "three-acts",
+    title: "Three acts",
+    summary: "2022 promise · today's risk · Malawi's window",
+    icon: <Clock size={24} />,
     bg: "dark",
     content: (
       <div className="flex flex-col justify-center h-full px-[100px]">
-        <SectionLabel>What we heard</SectionLabel>
-        <SlideTitle>Your challenges today</SlideTitle>
-        <p className="text-[22px] font-normal opacity-75 mb-8 max-w-[1100px]">
-          From your qualification call — 7,793 employees today, peaking to 9,000–10,000 across three Malawi sites.
-        </p>
-        <div className="grid grid-cols-3 gap-5">
-          {[
-            {
-              title: "Manual performance reviews",
-              body: "Engaged Performance Management (EPM) runs on paper and spreadsheets — no system support today.",
-              impact: "400+ managers · review cycle starts September",
-            },
-            {
-              title: "Fragmented HR stack",
-              body: "SAP SuccessFactors (partial), Qlik Sense, Payspace, and UKG for time & attendance — each for a different job.",
-              impact: "Manual handoffs between systems",
-            },
-            {
-              title: "Recruitment overload",
-              body: "As Malawi's largest employer, a single job advert can draw 1,000+ applications.",
-              impact: "HR business partners shortlist manually — weeks of work",
-            },
-            {
-              title: "Multi-site operations",
-              body: "Head office (~200), Dwangwa (~3,000), and Nchalo (~5,000–6,000) — seasonal peaks drive intense data capture.",
-              impact: "Peak workforce up to 10,000 employees",
-            },
-            {
-              title: "Multiple vendor costs",
-              body: "Several service providers for HR systems — full SAP was not purchased; modules added over time. Malawi is now choosing its own solutions, not CENT-mandated ones.",
-              impact: "Ideal is one system — Tamanda would champion a unified approach",
-            },
-            {
-              title: "September urgency",
-              body: "Performance reviews are manual today — the business should be able to run this in a system.",
-              impact: d.decisionTimeline,
-            },
-          ].map((card, i) => (
-            <FactorialCard
-              key={card.title}
-              icon={i === 5 ? <Users size={22} /> : <FolderOpen size={22} />}
-              title={card.title}
-              body={card.body}
-              impact={card.impact}
-            />
-          ))}
+        <SectionLabel>The story we heard</SectionLabel>
+        <SlideTitle>Three acts — and you're in act three</SlideTitle>
+        <div className="grid grid-cols-3 gap-6">
+          <ActCard
+            act="Act I · 2022"
+            title="The promise that didn't land"
+            body="SAP SuccessFactors was supposed to be everything — workforce planning, performance, recruitment. You bought what budget allowed. Performance stayed manual. The stack grew instead of unified."
+            quote="When SAP was coming in, I thought: yeah, this is it. But we're just buying what we could."
+          />
+          <ActCard
+            act="Act II · Today"
+            title="The invisible risk"
+            body="7,793 employees. 1,000+ applications per job advert. 400+ managers running EPM on paper. You hold the data — but you can't see where things sit. Season is here. The team is drowning in paperwork."
+            quote="Maybe they don't even shortlist at all. There's a risk there."
+          />
+          <ActCard
+            act="Act III · Now"
+            title="Malawi's window"
+            body="For the first time, Malawi chooses its own solutions — not CENT-mandated ones. Kumbo returns in August. September won't wait. This is the moment to prove value modularly, before the cycle hits."
+            quote="It's just now that we're getting the power. They're asking us to get our own solutions."
+          />
         </div>
       </div>
     ),
   },
 
   {
-    id: "solution",
-    title: "The solution",
-    summary: "Bundle · modules · demo",
+    id: "peak-pain",
+    title: "Peak pain",
+    summary: "Why change · why now · why you",
+    icon: <AlertTriangle size={24} />,
+    bg: "dark",
+    content: (
+      <div className="flex flex-col justify-center h-full px-[100px]">
+        <SectionLabel>What drives the decision</SectionLabel>
+        <SlideTitle>This isn't about software — it's about control</SlideTitle>
+        <p className="text-[22px] font-normal opacity-75 mb-8 max-w-[1100px]">
+          Tamanda, you own the quality of HR data and process for Malawi's largest employer. These are the three
+          forces that make change inevitable — and Factorial the right partner.
+        </p>
+        <div className="grid grid-cols-3 gap-5">
+          <FactorialCard
+            icon={<Shield size={22} />}
+            title="Loss of control"
+            body="With 400+ managers and manual EPM, you literally don't know where performance data sits. That's not a tech problem — it's an accountability gap."
+            impact="Factorial gives visibility. Visibility is power."
+          />
+          <FactorialCard
+            icon={<TrendingUp size={22} />}
+            title="A window that closes"
+            body="Malawi is decentralizing HR decisions for the first time. You can be the leader who modernized HR — with proof before Kumbo returns in August."
+            impact="Champion the change · bring a ready case to your director"
+          />
+          <FactorialCard
+            icon={<Clock size={22} />}
+            title="September deadline"
+            body="The performance cycle starts in three months. Manual EPM with 400+ managers across three sites isn't a plan — it's a countdown."
+            impact={d.decisionTimeline}
+          />
+        </div>
+        <p className="mt-8 text-[20px] font-normal opacity-70 max-w-[1000px] border-l-4 border-primary/60 pl-6">
+          You don't need more features. You need a mirror that shows how life would be better — and ammunition to
+          bring Chido, Leila, Moses, and Kumbo on board.
+        </p>
+      </div>
+    ),
+  },
+
+  {
+    id: "modular-path",
+    title: "Modular path",
+    summary: "Phase 1 performance · Phase 2 ATS · Phase 3 expand",
     icon: <Zap size={24} />,
     bg: "light",
     content: (
       <div className="flex flex-col justify-center h-full px-[100px]">
-        <SectionLabel>Factorial HR</SectionLabel>
-        <SlideTitle light>Every challenge maps to a module</SlideTitle>
-        <p className="text-[20px] font-normal text-foreground/75 mb-6">
-          <strong className="font-bold text-foreground">{d.bundleName}</strong> — {d.bundleModules}
+        <SectionLabel>Not another SAP</SectionLabel>
+        <SlideTitle light>Fill the gaps — keep what already works</SlideTitle>
+        <p className="text-[20px] font-normal text-foreground/75 mb-5 max-w-[1100px]">
+          UKG stays. Payspace stays. SuccessFactors stays. Factorial enters where it hurts — modularly, with proof
+          at each phase.
         </p>
         <div className="border border-foreground/15 bg-primary/[0.03] p-5 mb-6">
-          <p className="text-[20px] font-bold text-foreground mb-1">{d.demoNote}</p>
+          <p className="text-[20px] font-bold text-foreground">{d.demoNote}</p>
         </div>
         <div className="grid grid-cols-[1.2fr_0.8fr] gap-6 items-stretch">
-          <div className="grid grid-cols-2 gap-5">
+          <div className="grid grid-cols-1 gap-4">
             <FactorialCard
               light
-              icon={<FolderOpen size={22} />}
+              badge="Phase 1 · Urgent"
+              icon={<Target size={22} />}
               title="Performance 2.0"
-              body="Structured review cycles, manager dashboards, and goal tracking — replaces manual EPM before September."
+              body="Structured review cycles, manager dashboards, and goal tracking — replace manual EPM before September. 400+ managers, one system, full visibility."
+              impact="Go-live target: before September review cycle"
             />
             <FactorialCard
               light
-              icon={<Check size={22} />}
-              title="Trainings"
-              body="Training delivered on AB Sugar, then recorded in SuccessFactors — Factorial links completion to performance and development goals."
-            />
-            <FactorialCard
-              light
+              badge="Phase 2 · High"
               icon={<Users size={22} />}
-              title="Engagement"
-              body="Pulse surveys and NPS linked to performance data — visibility across 400+ managers and three sites."
+              title="Recruitment / ATS"
+              body="1,000+ applications per advert — automatic shortlisting, pipelines, LinkedIn integration. You said you wished you'd known Factorial 3–4 months ago."
+              impact="Safra hiring · Malawi's largest employer"
             />
             <FactorialCard
               light
-              icon={<Calendar size={22} />}
-              title="Core + Time Off"
-              body="Employee self-service and time-off requests — modular entry that complements SAP and UKG, not a rip-and-replace."
+              badge="Phase 3 · Expand"
+              icon={<Check size={22} />}
+              title="Trainings + Engagement"
+              body="AB Sugar delivers training → SuccessFactors records it. Factorial links completion to performance. Pulse surveys across three sites."
+              impact={`${d.bundleName} · ${d.bundleModules}`}
             />
           </div>
           <ExpandableImage
             src={factorialModulesImg}
             alt="Factorial HR modules overview"
             title={d.bundleName}
-            caption={`Proposed scope · ${d.bundleModules}`}
-            className="border border-foreground/15 overflow-hidden bg-background h-[260px]"
+            caption="Modular entry · expand when each phase proves value"
+            className="border border-foreground/15 overflow-hidden bg-background h-full min-h-[320px]"
             imgClassName="w-full h-full object-contain object-center"
           />
         </div>
@@ -230,89 +283,54 @@ export const slides: SlideData[] = [
   },
 
   {
-    id: "investment",
-    title: "Your proposal",
-    summary: "Scope · pricing",
-    icon: <FileText size={24} />,
-    bg: "dark",
-    content: (
-      <div className="flex flex-col justify-center h-full px-[100px]">
-        <SectionLabel>Your proposal</SectionLabel>
-        <SlideTitle>Clear scope · pricing from discovery</SlideTitle>
-        <p className="text-[22px] font-normal opacity-80 mb-8">
-          <strong className="font-bold">{d.bundleName}</strong> — {d.bundleModules}
-        </p>
-        <div className="grid grid-cols-2 gap-8">
-          <div className="border border-white/20 bg-white/5 p-8">
-            <p className="text-[18px] font-bold uppercase tracking-widest opacity-70 mb-4">One-time implementation</p>
-            <p className="text-[48px] font-bold leading-none mb-2">
-              {d.implantacaoFactorial_USD != null ? `$${d.implantacaoFactorial_USD}` : PRICING_PLACEHOLDER}
-            </p>
-            <p className="text-[16px] font-normal opacity-60 border-t border-white/15 pt-4 mt-4">{d.implantacaoNota}</p>
-          </div>
-          <div className="border border-white/20 bg-white/5 p-8">
-            <p className="text-[18px] font-bold uppercase tracking-widest opacity-70 mb-4">Monthly subscription</p>
-            <p className="text-[48px] font-bold leading-none mb-2">
-              {d.mensalFactorial_USD != null ? `$${d.mensalFactorial_USD}` : PRICING_PLACEHOLDER}
-            </p>
-            <p className="text-[20px] font-normal opacity-75 mb-2">
-              / month{d.totalColaboradores > 0 ? ` · ${d.totalColaboradores} employees` : ""}
-            </p>
-            <p className="text-[16px] font-normal opacity-65 border-t border-white/15 pt-4 mt-4">{d.pricingJustification}</p>
-          </div>
-        </div>
-      </div>
-    ),
-  },
-
-  {
     id: "how-it-fits",
     title: "How it fits",
-    summary: "Before vs after",
+    summary: "Your stack stays · gaps get filled",
     icon: <Link2 size={24} />,
     bg: "dark",
     content: (
       <div className="flex flex-col justify-center h-full px-[100px]">
-        <SectionLabel>How it fits</SectionLabel>
-        <SlideTitle>Your existing stack stays where it should</SlideTitle>
+        <SectionLabel>Respect what you invested in</SectionLabel>
+        <SlideTitle>No rip-and-replace · no repeating 2022</SlideTitle>
         <p className="text-[22px] font-normal opacity-75 mb-8 max-w-[1100px]">
-          Modular approach — SAP, Payspace, and UKG stay in place where they already work. Factorial fills the gaps you named.
+          SAP, Payspace, and UKG stay in place. Factorial fills the gaps Tamanda named — starting with performance,
+          expanding when the team is ready.
         </p>
         <div className="border border-white/20">
           <div className="grid grid-cols-[1fr_1fr_1fr] text-[18px] font-bold bg-white/5">
-            <div className="px-6 py-4 border-b border-white/15 opacity-70">Criteria</div>
+            <div className="px-6 py-4 border-b border-white/15 opacity-70">Area</div>
             <div className="px-6 py-4 border-b border-white/15 text-center opacity-70">Today</div>
             <div className="px-6 py-4 border-b border-white/15 text-center opacity-70">With Factorial</div>
             {[
               {
                 c: "Performance management",
-                s: "Manual EPM — paper and spreadsheets",
-                f: "Structured cycles, goals, and manager dashboards",
-              },
-              {
-                c: "Reporting & analytics",
-                s: "Qlik Sense dashboards (integrated with SAP)",
-                f: "Built-in reports + custom analytics on HR data",
-              },
-              {
-                c: "Time & attendance",
-                s: "UKG migration in testing (go-live next month)",
-                f: "Complements UKG — no disruption to rollout",
-              },
-              {
-                c: "Payroll",
-                s: "Payspace processes payroll",
-                f: "Sync employee data — Factorial does not process payroll",
+                s: "Manual EPM — paper, spreadsheets, 400+ managers",
+                f: "Phase 1 · Structured cycles before September",
               },
               {
                 c: "Recruitment / ATS",
                 s: "Manual shortlisting — 1,000+ apps per role",
-                f: "Recruitment add-on available when talent team is ready",
+                f: "Phase 2 · ATS when talent team is ready",
               },
               {
                 c: "Trainings",
-                s: "AB Sugar (delivery) → SuccessFactors (records) + LinkedIn Learning",
-                f: "Links training completion to performance — complements AB Sugar and SuccessFactors",
+                s: "AB Sugar (delivery) → SuccessFactors (records) + LinkedIn",
+                f: "Phase 3 · Links training to performance outcomes",
+              },
+              {
+                c: "Time & attendance",
+                s: "UKG migration in testing (go-live next month)",
+                f: "UKG stays · Factorial complements, no disruption",
+              },
+              {
+                c: "Payroll",
+                s: "Payspace processes payroll",
+                f: "Payspace stays · Factorial syncs employee data",
+              },
+              {
+                c: "Reporting",
+                s: "Qlik Sense dashboards (integrated with SAP)",
+                f: "Built-in HR reports · Qlik can coexist",
               },
             ].map((row, i, arr) => (
               <Fragment key={row.c}>
@@ -340,56 +358,71 @@ export const slides: SlideData[] = [
   },
 
   {
-    id: "next-steps",
-    title: "Next steps",
-    summary: "Demo · decision · go-live",
+    id: "path-forward",
+    title: "Path forward",
+    summary: "Demo · decision · investment",
     icon: <Calendar size={24} />,
     bg: "dark",
     content: (
       <div className="flex flex-col justify-center h-full px-[100px]">
-        <SectionLabel>Next steps</SectionLabel>
-        <SlideTitle>Path to decision</SlideTitle>
-        <div className="grid grid-cols-2 gap-8 mt-4">
+        <SectionLabel>Your path forward</SectionLabel>
+        <SlideTitle>Lead the change · bring Kumbo a ready case</SlideTitle>
+        <div className="grid grid-cols-[1.1fr_0.9fr] gap-8 mt-2">
           <div className="space-y-4">
             {[
               {
                 step: "1",
-                title: "Performance Management demo",
+                title: "Performance demo on Teams",
                 body:
-                  "Tamanda coordinates date via WhatsApp — invite Chido (performance), site HR heads (Leila, Moses), BPs, and training team. Use Microsoft Teams.",
+                  "Tamanda coordinates via WhatsApp — invite Chido (performance), Leila & Moses (site HR heads), BPs, and training team. Show them: September doesn't have to be manual.",
               },
               {
                 step: "2",
-                title: "Stakeholder alignment",
+                title: "Build internal momentum",
                 body:
-                  "Bring in talent and site teams if interest sparks. Kumbo (HR Director) returns in August — align decision path before then.",
+                  "If recruitment sparks interest, bring talent team into phase two. Align stakeholders before Kumbo returns in August — she gets a decision path, not a question.",
               },
               {
                 step: "3",
-                title: "Decide & implement",
-                body: `Target alignment before September review cycle · go-live ${d.goLiveTarget}`,
+                title: "Decide & go-live",
+                body: `Confirm pricing for ~${d.totalColaboradores.toLocaleString()} seats in demo · target ${d.goLiveTarget}`,
               },
             ].map((item) => (
-              <div key={item.step} className="flex gap-5 border-l-4 border-primary/80 bg-white/5 border border-white/15 p-6">
+              <div
+                key={item.step}
+                className="flex gap-5 border-l-4 border-primary/80 bg-white/5 border border-white/15 p-5"
+              >
                 <span className="text-[32px] font-bold opacity-50 shrink-0">{item.step}</span>
                 <div>
                   <p className="text-[22px] font-bold mb-1">{item.title}</p>
-                  <p className="text-[18px] font-normal opacity-75">{item.body}</p>
+                  <p className="text-[17px] font-normal opacity-75">{item.body}</p>
                 </div>
               </div>
             ))}
           </div>
-          <div className="border border-white/20 bg-white/5 p-8 flex flex-col justify-center">
-            <p className="text-[18px] font-bold uppercase tracking-widest opacity-70 mb-6">Summary</p>
-            <div className="space-y-5">
-              <div>
-                <p className="text-[16px] font-normal opacity-65">Bundle</p>
-                <p className="text-[28px] font-bold">{d.bundleName}</p>
-              </div>
-              <div className="border-t border-white/15 pt-5">
-                <p className="text-[20px] font-bold">{d.vendedor}</p>
-                <p className="text-[16px] font-normal opacity-75">{d.emailVendedor}</p>
-              </div>
+          <div className="space-y-4">
+            <div className="border border-white/20 bg-white/5 p-6">
+              <p className="text-[16px] font-bold uppercase tracking-widest opacity-70 mb-3">One-time implementation</p>
+              <p className="text-[42px] font-bold leading-none mb-2">
+                {d.implantacaoFactorial_USD != null ? `$${d.implantacaoFactorial_USD}` : PRICING_PLACEHOLDER}
+              </p>
+              <p className="text-[15px] font-normal opacity-60">{d.implantacaoNota}</p>
+            </div>
+            <div className="border border-white/20 bg-white/5 p-6">
+              <p className="text-[16px] font-bold uppercase tracking-widest opacity-70 mb-3">Monthly subscription</p>
+              <p className="text-[42px] font-bold leading-none mb-2">
+                {d.mensalFactorial_USD != null ? `$${d.mensalFactorial_USD}` : PRICING_PLACEHOLDER}
+              </p>
+              <p className="text-[18px] font-normal opacity-75">
+                / month · {d.totalColaboradores.toLocaleString()} employees
+              </p>
+              <p className="text-[15px] font-normal opacity-65 mt-3 pt-3 border-t border-white/15">
+                {d.pricingJustification}
+              </p>
+            </div>
+            <div className="border border-primary/40 bg-primary/10 p-5">
+              <p className="text-[16px] font-bold opacity-80 mb-1">{d.bundleName}</p>
+              <p className="text-[15px] font-normal opacity-70">{d.vendedor} · {d.emailVendedor}</p>
             </div>
           </div>
         </div>
@@ -407,6 +440,9 @@ export const slides: SlideData[] = [
       <div className="flex flex-col justify-center items-center h-full px-[100px] text-center">
         <SectionLabel>See it live</SectionLabel>
         <SlideTitle>Discover Factorial — built for teams like {d.empresa}</SlideTitle>
+        <p className="text-[22px] font-normal opacity-75 mb-6 max-w-[800px] -mt-4">
+          September won't be manual again. This is what modern HR looks like — modular, proven, and ready for Malawi.
+        </p>
         <div className="w-[960px] h-[540px] mt-2">
           <iframe
             width="960"

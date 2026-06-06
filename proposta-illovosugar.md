@@ -1,61 +1,56 @@
-# Illovo Sugar — HR Reimagined
+# Illovo Sugar — September Won't Be Manual Again
 
-> Pre-demo proposal from qualification call with Tamanda Chikopa (2026-06). Pricing TBD.
+> Story-driven pre-demo proposal from qualification call with Tamanda Chikopa (2026-06). Pricing TBD.
 
-## 01 — Cover
-- **Company:** Illovo Sugar
-- **Seats:** 7,793 (peak 9,000–10,000)
-- **Recommended bundle:** Planning PRO
-- **Modules:** Core · Time Tracking · Time Off · Shifts · Performance · Trainings · Engagement
+## 01 — Cover · Your story
+- **Headline:** Accountability without control
+- **Company:** Illovo Sugar · 7,793 employees (peak 9,000–10,000)
+- **Quote:** *"I don't think we're optimal. Maybe they don't even shortlist at all. There's a risk there."* — Tamanda Chikopa
 - **Commercial contact:** Victor Gutierrez — Expansion Manager · US · Factorial
 
-## 02 — Context
-Illovo Sugar is Malawi's largest sugar employer with 7,793 employees across three sites. They run partial SAP SuccessFactors (since 2022), Qlik Sense for analytics, Payspace for payroll, and are migrating to UKG for time & attendance. Performance management (EPM) is fully manual with 400+ managers — the September review cycle is the immediate urgency.
+## 02 — Three acts
+| Act | Title | Core message |
+|-----|-------|--------------|
+| I · 2022 | The promise that didn't land | SAP SuccessFactors bought partially — performance stayed manual |
+| II · Today | The invisible risk | 1,000+ apps/vaga · 400+ managers · EPM manual · season peak |
+| III · Now | Malawi's window | First time country chooses own solutions · Kumbo back August · September deadline |
 
-## 03 — Client priorities
-1. Manual performance reviews — no system; 400+ managers; September cycle approaching
-2. Fragmented HR stack — SAP + Qlik + Payspace + UKG with manual handoffs
-3. Recruitment overload — 1,000+ applications per job advert; manual shortlisting
-4. Multi-site seasonal operations — 3 sites, peak workforce to 10,000
-5. Multiple vendor costs — partial SAP adoption driven by budget, not preference
+## 03 — Peak pain (psychological drivers)
+1. **Loss of control** — accountable for HR quality without visibility
+2. **Window that closes** — decentralization + Kumbo leave = Tamanda leads now
+3. **September deadline** — performance cycle in 3 months
 
-## 04 — Recommended package
-- **Bundle:** Planning PRO
-- **Modules:** Core · Time Tracking · Time Off · Shifts · Performance · Trainings · Engagement
-- **Per user / month:** A DEFINIR NA DEMO
-- **Total monthly:** A DEFINIR NA DEMO
+## 04 — Modular path (not another SAP)
+| Phase | Module | Urgency |
+|-------|--------|---------|
+| 1 | Performance 2.0 | 🔴 Before September |
+| 2 | Recruitment / ATS | 🔴 Safra hiring season |
+| 3 | Trainings + Engagement | 🟡 Expand when proven |
 
-## 05 — Solution modules
-- **Performance 2.0:** Structured review cycles and manager dashboards — replaces manual EPM before September
-- **Trainings:** Compliance and mandatory training paths linked to performance outcomes
-- **Engagement:** Pulse surveys and NPS across 400+ managers and three sites
-- **Core + Time Off:** Modular self-service that complements SAP and UKG
+**Stays in place:** UKG · Payspace · SAP SuccessFactors · Qlik Sense
 
-## 06 — Payroll / integrations
-- **Payspace** continues processing payroll — Factorial syncs employee data
-- **SAP SuccessFactors** remains for core HR data capture
-- **UKG** time & attendance rollout proceeds — Factorial complements, does not replace
-- **Qlik Sense** analytics can coexist — Factorial adds built-in HR reports
-- **Recruitment add-on** available when talent team is ready (ATS gap identified)
+## 05 — How it fits
+- **Performance:** Manual EPM → Phase 1 structured cycles
+- **Recruitment:** Manual shortlisting → Phase 2 ATS
+- **Trainings:** AB Sugar (delivery) → SuccessFactors (records) → Factorial links to performance
+- **UKG:** Stays — Factorial complements, no disruption to go-live
+- **Payspace:** Stays — Factorial syncs data only
 
-## 07 — Investment
+## 06 — Path forward + investment
+| Milestone | Target |
+|-----------|--------|
+| Performance demo on Teams | Tamanda confirms via WhatsApp |
+| Stakeholder alignment | Before August (Kumbo returns) |
+| Go-live | Before September review cycle |
+
 | Item | Amount |
 |------|--------|
 | Implementation | A DEFINIR NA DEMO |
-| Monthly | A DEFINIR NA DEMO |
+| Monthly (~7,793 seats) | A DEFINIR NA DEMO |
 
-## 08 — Timeline
-| Milestone | Target |
-|-----------|--------|
-| Performance demo | Week of 2026-06-09 (Tamanda confirms via WhatsApp) |
-| Stakeholder alignment | Before August (Kumbo returns) |
-| Go-live | Align before September review cycle |
-
-## 09 — Next steps
-1. Performance Management demo on Microsoft Teams — Tamanda invites Chido, Leila, Moses, BPs, training team
-2. Confirm pricing and scope for ~7,793 seats during demo
-3. Expand to recruitment module if talent team shows interest
+## 07 — Discover Factorial
+Product overview video — closing slide.
 
 ---
 
-*Prepared by Victor Gutierrez · victor.gutierrez@factorial.co · From qualification call with Tamanda Chikopa*
+*Prepared by Victor Gutierrez · victor.gutierrez@factorial.co · Narrative from qualification call with Tamanda Chikopa*

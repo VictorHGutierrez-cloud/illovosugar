@@ -22,7 +22,7 @@ const Landing = () => {
             items={[
               {
                 name: "Enter proposal",
-                detail: "Topics on the left · slide opens in a floating panel",
+                detail: "Tamanda's story · 7 slides · performance before September",
                 logo: <LayoutGrid className="h-5 w-5" />,
                 accent: slidePillAccent(0),
                 onClick: () => navigate("/proposta"),

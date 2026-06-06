@@ -133,7 +133,7 @@ export interface ParticleTextEffectProps {
   interactive?: boolean;
 }
 
-export const CLIENT_PARTICLE_WORDS = ["Factorial HR", "ILLOVO SUGAR"];
+export const CLIENT_PARTICLE_WORDS = ["SEPTEMBER", "ILLOVO SUGAR", "MALAWI"];
 
 export function ParticleTextEffect({
   words = CLIENT_PARTICLE_WORDS,
