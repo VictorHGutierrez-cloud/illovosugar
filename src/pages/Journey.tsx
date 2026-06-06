@@ -4,6 +4,7 @@ import { ChevronLeft, ChevronRight, Home } from "lucide-react";
 import { JourneyTimeline, JourneyTimelineStrip } from "@/components/journey/JourneyTimeline";
 import { JourneyStepPanel } from "@/components/journey/JourneyStepPanel";
 import { JourneyDemoDialog } from "@/components/journey/JourneyDemoDialog";
+import { JourneyNextSteps } from "@/components/journey/JourneyNextSteps";
 import { JOURNEY_STEPS } from "@/data/journeySteps";
 import { DEFAULT_VALUES as d } from "@/utils/constants";
 
@@ -70,6 +71,8 @@ const Journey = () => {
             </div>
           </main>
         </div>
+
+        <JourneyNextSteps />
       </div>
 
       <JourneyDemoDialog step={step} open={demoOpen} onOpenChange={setDemoOpen} />

@@ -99,6 +99,46 @@ export const JOURNEY_STEPS: JourneyStep[] = [
   },
 ];
 
+export interface NextStep {
+  id: string;
+  index: number;
+  image: string;
+  label: string;
+  title: string;
+  description: string;
+}
+
+/** Closing call-to-action: what happens after the story. */
+export const NEXT_STEPS: NextStep[] = [
+  {
+    id: "demo-teams",
+    index: 1,
+    image: "passoa.png",
+    label: "This month",
+    title: "Performance demo on Teams",
+    description:
+      "Tamanda coordinates the date via WhatsApp and invites Chido, Leila, Moses, the BPs, and the training team. A live walkthrough focused on performance before September.",
+  },
+  {
+    id: "align-august",
+    index: 2,
+    image: "passob.png",
+    label: "Before August",
+    title: "Align the stakeholders",
+    description:
+      "Bridge the teams and build internal momentum before Kumbo returns from leave. She receives a decision path, not a question.",
+  },
+  {
+    id: "decide-golive",
+    index: 3,
+    image: "passoc.png",
+    label: "Before September",
+    title: "Decide & go-live",
+    description:
+      "Confirm scope and pricing, then start modular — performance live across all three sites before the review cycle begins.",
+  },
+];
+
 /** Resolve a journey asset path against the Vite base URL (GitHub Pages safe). */
 export function journeyAsset(fileName: string): string {
   return `${import.meta.env.BASE_URL}journey/${fileName}`;
