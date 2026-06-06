@@ -151,8 +151,8 @@ export const slides: SlideData[] = [
             },
             {
               title: "Multiple vendor costs",
-              body: "Several service providers for HR systems — full SAP was not purchased; modules added over time.",
-              impact: "Ideal is one system, but budget drove partial adoption",
+              body: "Several service providers for HR systems — full SAP was not purchased; modules added over time. Malawi is now choosing its own solutions, not CENT-mandated ones.",
+              impact: "Ideal is one system — Tamanda would champion a unified approach",
             },
             {
               title: "September urgency",
@@ -201,7 +201,7 @@ export const slides: SlideData[] = [
               light
               icon={<Check size={22} />}
               title="Trainings"
-              body="Compliance and mandatory training paths alongside SuccessFactors capture — certifications in one workflow."
+              body="Training delivered on AB Sugar, then recorded in SuccessFactors — Factorial links completion to performance and development goals."
             />
             <FactorialCard
               light
@@ -311,8 +311,8 @@ export const slides: SlideData[] = [
               },
               {
                 c: "Trainings",
-                s: "SuccessFactors + Abisuga Compass + LinkedIn Learning",
-                f: "Unified training paths linked to performance outcomes",
+                s: "AB Sugar (delivery) → SuccessFactors (records) + LinkedIn Learning",
+                f: "Links training completion to performance — complements AB Sugar and SuccessFactors",
               },
             ].map((row, i, arr) => (
               <Fragment key={row.c}>

@@ -47,7 +47,7 @@ export const DEFAULT_VALUES = {
   demoNote: "Live demo focused on Performance Management — pricing and scope confirmed in your product demo",
 
   payrollPartner: "Payspace (payroll) — Factorial syncs; does not process payroll",
-  currentTools: "SAP SuccessFactors (partial) · Qlik Sense · Payspace · UKG (time & attendance, testing)",
+  currentTools: "SAP SuccessFactors (partial) · AB Sugar (training delivery) · Qlik Sense · Payspace · UKG (time & attendance, testing)",
 
   closingVideoId: "9mUIcLa2te8",
 } as const;

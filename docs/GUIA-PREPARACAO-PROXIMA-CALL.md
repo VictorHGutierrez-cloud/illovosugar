@@ -29,7 +29,7 @@ Deliver a **Performance Management-focused demo** that shows how Factorial repla
 | **Leila** | HR site head | Factory site stakeholder |
 | **Moses** | HR site head | Factory site stakeholder |
 | **HR Business Partners** | Recruitment | Grumpy about paperwork — good audience for efficiency story |
-| **Training team** | L&D | Uses SuccessFactors + Abisuga Compass + LinkedIn Learning |
+| **Training team** | L&D | Training on AB Sugar platform, recorded in SuccessFactors + LinkedIn Learning |
 | **Kumbo** | HR Director | **Absent until August** — reorganization leave; not on this call |
 
 **Decision path:** Tamanda qualifies and brings stakeholders. Final decision likely involves Kumbo after August.
