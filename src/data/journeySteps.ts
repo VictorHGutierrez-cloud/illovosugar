@@ -1,9 +1,15 @@
 /**
  * Illovo Sugar — HR journey steps.
  * Narrative source: qualification call with Tamanda Chikopa (2026-06).
- * Each step pairs a Gemini-generated GIF with a before/after contrast and a
- * placeholder slot for a Factorial demo video (Loom) to be recorded later.
+ * Each step pairs a Gemini-generated GIF with a before/after contrast and one
+ * or more Factorial demo videos (Google Drive) shown in the "Watch demo" popup.
  */
+
+export interface DemoVideo {
+  label: string;
+  /** Google Drive preview URL: https://drive.google.com/file/d/FILE_ID/preview */
+  url: string;
+}
 
 export interface JourneyStep {
   id: string;
@@ -18,8 +24,8 @@ export interface JourneyStep {
   withFactorial: string;
   quote?: string;
   moduleLabel: string;
-  /** Loom / YouTube embed URL — null until recorded (Phase 2). */
-  demoVideoUrl: string | null;
+  /** Factorial demo videos shown in the popup (Google Drive embeds). */
+  demoVideos: DemoVideo[];
 }
 
 export const JOURNEY_STEPS: JourneyStep[] = [
@@ -36,7 +42,16 @@ export const JOURNEY_STEPS: JourneyStep[] = [
       "A clear starting point to modernize HR for Malawi's largest employer — modular, with proof at every phase.",
     quote: "It's just now that we're getting the power. They're asking us to get our own solutions.",
     moduleLabel: "Factorial Core · onboarding",
-    demoVideoUrl: null,
+    demoVideos: [
+      {
+        label: "Automatic certificate generation",
+        url: "https://drive.google.com/file/d/1RvLz_-zE1B_EJTKPd9J7pAfIY8XikAO4/preview",
+      },
+      {
+        label: "LMS",
+        url: "https://drive.google.com/file/d/1ZBzAvQn8UtKPe_0s8M7c79LA-TZLX5pw/preview",
+      },
+    ],
   },
   {
     id: "manual-performance",
@@ -51,7 +66,16 @@ export const JOURNEY_STEPS: JourneyStep[] = [
       "Performance 2.0 — structured cycles, goal tracking, and a manager dashboard. Submit a review in two clicks.",
     quote: "I don't think we're optimal. Chances are we don't know where those things are sitting.",
     moduleLabel: "Factorial Performance 2.0",
-    demoVideoUrl: null,
+    demoVideos: [
+      {
+        label: "AVD Peers",
+        url: "https://drive.google.com/file/d/1M99Lwt4pg5qNWczZpc3sluqCagqapA5c/preview",
+      },
+      {
+        label: "AVD Factorial",
+        url: "https://drive.google.com/file/d/1vXZCTd5HTwyh1bv0pxGev9QLKnWUVTU1/preview",
+      },
+    ],
   },
   {
     id: "fragmented-stack",
@@ -65,7 +89,16 @@ export const JOURNEY_STEPS: JourneyStep[] = [
     withFactorial:
       "HR data flows where the gaps are. UKG and Payspace stay in place — Factorial fills the rest.",
     moduleLabel: "Factorial integrations",
-    demoVideoUrl: null,
+    demoVideos: [
+      {
+        label: "Meeting surveys (one-on-one)",
+        url: "https://drive.google.com/file/d/19XbP-z_ypsCk0Cwhsd_6bpe63vj8TjnX/preview",
+      },
+      {
+        label: "One surveys",
+        url: "https://drive.google.com/file/d/10kuyd-q2bYtF_fs3oiPOtISHowjsYKA0/preview",
+      },
+    ],
   },
   {
     id: "internal-buyin",
@@ -80,7 +113,12 @@ export const JOURNEY_STEPS: JourneyStep[] = [
       "A ready case to bring Chido, Leila, Moses — and Kumbo in August. No rip-and-replace, no repeat of 2022.",
     quote: "I wish we knew Factorial three, four months ago.",
     moduleLabel: "Factorial Recruitment / ATS",
-    demoVideoUrl: null,
+    demoVideos: [
+      {
+        label: "ATS AI match",
+        url: "https://drive.google.com/file/d/1vZfFnxLLWCvU404bqsGTg1SwwF9hjS_c/preview",
+      },
+    ],
   },
   {
     id: "visibility-september",
@@ -95,7 +133,16 @@ export const JOURNEY_STEPS: JourneyStep[] = [
       "One view across 7,793 employees and three sites. September readiness, visible and on track.",
     quote: "Maybe they don't even shortlist at all. There's a risk there.",
     moduleLabel: "Factorial analytics & reports",
-    demoVideoUrl: null,
+    demoVideos: [
+      {
+        label: "One report — contracts",
+        url: "https://drive.google.com/file/d/1dqqMsqVk8nQ6Cm5xXjWhTMjK9e2YXif6/preview",
+      },
+      {
+        label: "One reports — hours",
+        url: "https://drive.google.com/file/d/1W3O4-jretgC8lspyqRAXEHlbLo7xxH0V/preview",
+      },
+    ],
   },
 ];
 
