@@ -161,34 +161,34 @@ export interface NextStep {
   description: string;
 }
 
-/** Closing call-to-action: what happens after the story. */
+/** Optional follow-up topics — invitation, not obligation. */
 export const NEXT_STEPS: NextStep[] = [
   {
     id: "demo-teams",
     index: 1,
     image: "passoa.png",
-    label: "This month",
-    title: "Performance demo on Teams",
+    label: "When you're ready",
+    title: "Explore performance on Teams",
     description:
-      "The HR team schedules a live Teams walkthrough with the performance lead, site HR heads, business partners, and training team — focused on performance before September.",
+      "A live walkthrough of review cycles and manager dashboards — whoever from the team wants to join.",
   },
   {
     id: "align-august",
     index: 2,
     image: "passob.png",
-    label: "Before August",
-    title: "Align the stakeholders",
+    label: "At your pace",
+    title: "Compare notes internally",
     description:
-      "Bring the teams together and agree on scope before the HR director returns from leave in August — a clear decision path, not an open question.",
+      "Share what you've seen with site HR and performance leads — see what questions come up, no pressure.",
   },
   {
     id: "decide-golive",
     index: 3,
     image: "passoc.png",
-    label: "Before September",
-    title: "Decide & go-live",
+    label: "If it fits",
+    title: "Shape the scope together",
     description:
-      "Confirm scope and pricing, then start modular — performance live across all three sites before the review cycle begins.",
+      "If there's interest, map a modular start around what matters most before the review cycle — scope and pricing when you're ready.",
   },
 ];
 

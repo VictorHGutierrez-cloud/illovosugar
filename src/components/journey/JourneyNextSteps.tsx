@@ -1,28 +1,30 @@
 import { ArrowRight } from "lucide-react";
+import { ExpandableImage } from "@/components/ui/ImageLightbox";
 import { journeyAsset, NEXT_STEPS } from "@/data/journeySteps";
 
 export function JourneyNextSteps() {
   return (
     <section className="mt-14 border-t border-border pt-10">
       <div className="mb-6">
-        <p className="text-xs font-bold uppercase tracking-[0.2em] text-primary">The path forward</p>
-        <h2 className="mt-2 text-2xl font-bold leading-tight md:text-3xl">From story to decision</h2>
+        <p className="text-xs font-bold uppercase tracking-[0.2em] text-primary">If this resonates</p>
+        <h2 className="mt-2 text-2xl font-bold leading-tight md:text-3xl">Where we left off</h2>
         <p className="mt-2 max-w-2xl text-muted-foreground">
-          Three concrete next steps — from the first demo to go-live before September.
+          Three topics to pick up whenever the team is ready — no fixed timeline.
         </p>
       </div>
 
       <ol className="grid gap-5 md:grid-cols-3">
         {NEXT_STEPS.map((step, i) => (
           <li key={step.id} className="flex flex-col overflow-hidden rounded-2xl border border-border bg-background">
-            <div className="relative flex min-h-[200px] items-center justify-center overflow-hidden bg-white p-3 md:min-h-[240px]">
-              <img
+            <div className="relative aspect-[4/3] min-h-[200px] overflow-hidden bg-muted/30">
+              <ExpandableImage
                 src={journeyAsset(step.image)}
                 alt={step.title}
-                className="max-h-[200px] w-full object-contain md:max-h-[220px]"
-                loading="lazy"
+                title={step.title}
+                className="h-full w-full"
+                imgClassName="h-full w-full object-contain p-3"
               />
-              <span className="absolute left-3 top-3 rounded-full bg-primary px-2.5 py-1 text-xs font-bold uppercase tracking-wider text-primary-foreground shadow-sm">
+              <span className="pointer-events-none absolute left-3 top-3 rounded-full bg-primary/90 px-2.5 py-1 text-xs font-bold uppercase tracking-wider text-primary-foreground shadow-sm">
                 {step.label}
               </span>
             </div>

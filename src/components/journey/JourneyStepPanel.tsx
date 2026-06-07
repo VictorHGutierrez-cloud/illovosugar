@@ -1,4 +1,5 @@
 import { ArrowRight, PlayCircle, Sparkles, TriangleAlert } from "lucide-react";
+import { ExpandableImage } from "@/components/ui/ImageLightbox";
 import { cn } from "@/lib/utils";
 import { journeyAsset, type JourneyStep } from "@/data/journeySteps";
 
@@ -8,17 +9,21 @@ interface JourneyStepPanelProps {
 }
 
 export function JourneyStepPanel({ step, onWatchDemo }: JourneyStepPanelProps) {
+  const screenshotCount = step.screenshots?.length ?? 0;
+  const singleScreenshot = screenshotCount === 1;
+
   return (
     <div className="flex flex-col gap-6">
-      <div className="relative flex min-h-[300px] items-center justify-center overflow-hidden rounded-2xl border border-border bg-white p-4 shadow-sm md:min-h-[480px] md:p-8">
-        <img
+      <div className="relative aspect-[4/3] min-h-[300px] overflow-hidden rounded-2xl border border-border bg-muted/30 shadow-sm md:min-h-[480px]">
+        <ExpandableImage
           key={step.image}
           src={journeyAsset(step.image)}
           alt={step.title}
-          className="max-h-[420px] w-full object-contain md:max-h-[520px]"
-          loading="lazy"
+          title={step.title}
+          className="h-full w-full"
+          imgClassName="h-full w-full object-contain p-4 md:p-8"
         />
-        <span className="absolute left-5 top-5 rounded-full bg-primary px-3.5 py-1.5 text-sm font-bold uppercase tracking-wider text-primary-foreground shadow-sm">
+        <span className="pointer-events-none absolute left-5 top-5 rounded-full bg-primary px-3.5 py-1.5 text-sm font-bold uppercase tracking-wider text-primary-foreground shadow-sm">
           Step {step.index}
         </span>
       </div>
@@ -55,15 +60,26 @@ export function JourneyStepPanel({ step, onWatchDemo }: JourneyStepPanelProps) {
         )}
 
         {step.screenshots && step.screenshots.length > 0 && (
-          <div className="mt-8 grid gap-5 sm:grid-cols-2">
+          <div
+            className={cn(
+              "mt-8 grid gap-5",
+              singleScreenshot ? "grid-cols-1" : "sm:grid-cols-2",
+            )}
+          >
             {step.screenshots.map((shot) => (
               <figure key={shot.file} className="flex flex-col gap-2">
-                <div className="overflow-hidden rounded-xl border border-border bg-white shadow-sm">
-                  <img
+                <div
+                  className={cn(
+                    "overflow-hidden rounded-xl border border-border bg-muted/30 shadow-sm",
+                    singleScreenshot ? "aspect-[16/9] min-h-[220px]" : "aspect-[4/3] min-h-[200px]",
+                  )}
+                >
+                  <ExpandableImage
                     src={journeyAsset(shot.file)}
                     alt={shot.label}
-                    className="w-full object-contain"
-                    loading="lazy"
+                    title={shot.label}
+                    className="h-full w-full"
+                    imgClassName="h-full w-full object-contain p-2"
                   />
                 </div>
                 <figcaption className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
