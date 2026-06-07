@@ -11,6 +11,12 @@ export interface DemoVideo {
   url: string;
 }
 
+export interface Screenshot {
+  label: string;
+  /** File name inside public/journey/ — resolved with BASE_URL at render time. */
+  file: string;
+}
+
 export interface JourneyStep {
   id: string;
   /** 1-based label shown in the timeline. */
@@ -26,6 +32,8 @@ export interface JourneyStep {
   moduleLabel: string;
   /** Factorial demo videos shown in the popup (Google Drive embeds). */
   demoVideos: DemoVideo[];
+  /** Optional product screenshots shown inline under the step content. */
+  screenshots?: Screenshot[];
 }
 
 export const JOURNEY_STEPS: JourneyStep[] = [
@@ -33,23 +41,23 @@ export const JOURNEY_STEPS: JourneyStep[] = [
     id: "season-start",
     index: 1,
     title: "Season starts at head office",
-    character: "Tamanda · HR Services & Rewards",
+    character: "HR Services team · head office",
     image: "step1.png",
     moment: "The sugar season begins — recruitment and data capture spike at once.",
     painToday:
-      "32 people capturing data by hand. Kumbo is away until August. September's review cycle is only three months out.",
+      "32 people capturing data by hand across head office and two factory sites. September's review cycle is only three months out.",
     withFactorial:
       "A clear starting point to modernize HR for Malawi's largest employer — modular, with proof at every phase.",
     quote: "It's just now that we're getting the power. They're asking us to get our own solutions.",
-    moduleLabel: "Factorial Core · onboarding",
+    moduleLabel: "Factorial Core · trainings",
     demoVideos: [
       {
         label: "Automatic certificate generation",
         url: "https://drive.google.com/file/d/1RvLz_-zE1B_EJTKPd9J7pAfIY8XikAO4/preview",
       },
       {
-        label: "LMS",
-        url: "https://drive.google.com/file/d/1ZBzAvQn8UtKPe_0s8M7c79LA-TZLX5pw/preview",
+        label: "Learning management (LMS)",
+        url: "https://drive.google.com/file/d/19XbP-z_ypsCk0Cwhsd_6bpe63vj8TjnX/preview",
       },
     ],
   },
@@ -68,55 +76,58 @@ export const JOURNEY_STEPS: JourneyStep[] = [
     moduleLabel: "Factorial Performance 2.0",
     demoVideos: [
       {
-        label: "AVD Peers",
-        url: "https://drive.google.com/file/d/1M99Lwt4pg5qNWczZpc3sluqCagqapA5c/preview",
-      },
-      {
-        label: "AVD Factorial",
+        label: "Peer reviews (AVD Peers)",
         url: "https://drive.google.com/file/d/1vXZCTd5HTwyh1bv0pxGev9QLKnWUVTU1/preview",
       },
+      {
+        label: "Performance review (AVD Factorial)",
+        url: "https://drive.google.com/file/d/1ZBzAvQn8UtKPe_0s8M7c79LA-TZLX5pw/preview",
+      },
+    ],
+    screenshots: [
+      { label: "Action plan & competency assessment", file: "actionplan.png" },
     ],
   },
   {
     id: "fragmented-stack",
     index: 3,
     title: "Five systems that don't talk",
-    character: "Tamanda · HR Services team",
+    character: "HR Services · three sites",
     image: "step3.png",
     moment: "Data moves between SAP, Qlik, Payspace, and UKG — one manual bridge at a time.",
     painToday:
       "SuccessFactors, Qlik Sense, Payspace, UKG — every handoff is manual, every report is rework.",
     withFactorial:
-      "HR data flows where the gaps are. UKG and Payspace stay in place — Factorial fills the rest.",
-    moduleLabel: "Factorial integrations",
+      "HR data flows where the gaps are. UKG and Payspace stay in place — Factorial fills the rest, including engagement.",
+    moduleLabel: "Factorial engagement & surveys",
     demoVideos: [
       {
-        label: "Meeting surveys (one-on-one)",
-        url: "https://drive.google.com/file/d/19XbP-z_ypsCk0Cwhsd_6bpe63vj8TjnX/preview",
+        label: "One-on-one meetings",
+        url: "https://drive.google.com/file/d/10kuyd-q2bYtF_fs3oiPOtISHowjsYKA0/preview",
       },
       {
-        label: "One surveys",
-        url: "https://drive.google.com/file/d/10kuyd-q2bYtF_fs3oiPOtISHowjsYKA0/preview",
+        label: "Surveys",
+        url: "https://drive.google.com/file/d/1vZfFnxLLWCvU404bqsGTg1SwwF9hjS_c/preview",
       },
     ],
   },
   {
-    id: "internal-buyin",
+    id: "recruitment-scale",
     index: 4,
-    title: "Building the case internally",
-    character: "Tamanda + stakeholders",
+    title: "Recruitment at scale",
+    character: "Talent team · business partners",
     image: "step4.png",
-    moment: "Tamanda gathers the people who decide — and the arguments to convince them.",
+    moment: "Hiring season opens — a single advert can draw over a thousand applications.",
     painToday:
-      "1,000+ applications per advert and no system yet. Buy-in from Chido, Leila, and Moses is still forming.",
+      "1,000+ applications per advert and no system yet. Shortlisting is still manual for the HR business partners.",
     withFactorial:
-      "A ready case to bring Chido, Leila, Moses — and Kumbo in August. No rip-and-replace, no repeat of 2022.",
+      "An ATS with AI matching — pipelines and shortlisting that fit the existing stack, no rip-and-replace, no repeat of 2022.",
     quote: "I wish we knew Factorial three, four months ago.",
     moduleLabel: "Factorial Recruitment / ATS",
     demoVideos: [
       {
         label: "ATS AI match",
-        url: "https://drive.google.com/file/d/1vZfFnxLLWCvU404bqsGTg1SwwF9hjS_c/preview",
+        url: "https://drive.google.com/file/d/1dqqMsqVk8nQ6Cm5xXjWhTMjK9e2YXif6/preview",
       },
     ],
   },
@@ -124,24 +135,19 @@ export const JOURNEY_STEPS: JourneyStep[] = [
     id: "visibility-september",
     index: 5,
     title: "Visibility before September",
-    character: "Tamanda + Site Manager",
+    character: "HR team · site managers",
     image: "step5.png",
     moment: "The September cycle arrives — this time with one source of truth.",
     painToday:
       "Reports scattered across tools. The real risk: reviews that may never get shortlisted at all.",
     withFactorial:
-      "One view across 7,793 employees and three sites. September readiness, visible and on track.",
+      "One view across 7,793 employees and three sites — 9-box talent grids and performance distribution, visible and on track.",
     quote: "Maybe they don't even shortlist at all. There's a risk there.",
     moduleLabel: "Factorial analytics & reports",
-    demoVideos: [
-      {
-        label: "One report — contracts",
-        url: "https://drive.google.com/file/d/1dqqMsqVk8nQ6Cm5xXjWhTMjK9e2YXif6/preview",
-      },
-      {
-        label: "One reports — hours",
-        url: "https://drive.google.com/file/d/1W3O4-jretgC8lspyqRAXEHlbLo7xxH0V/preview",
-      },
+    demoVideos: [],
+    screenshots: [
+      { label: "9-box talent grid", file: "9box.png" },
+      { label: "Performance score distribution", file: "analyticsdistribution.png" },
     ],
   },
 ];
@@ -164,7 +170,7 @@ export const NEXT_STEPS: NextStep[] = [
     label: "This month",
     title: "Performance demo on Teams",
     description:
-      "Tamanda coordinates the date via WhatsApp and invites Chido, Leila, Moses, the BPs, and the training team. A live walkthrough focused on performance before September.",
+      "The HR team schedules a live Teams walkthrough with the performance lead, site HR heads, business partners, and training team — focused on performance before September.",
   },
   {
     id: "align-august",
@@ -173,7 +179,7 @@ export const NEXT_STEPS: NextStep[] = [
     label: "Before August",
     title: "Align the stakeholders",
     description:
-      "Bridge the teams and build internal momentum before Kumbo returns from leave. She receives a decision path, not a question.",
+      "Bring the teams together and agree on scope before the HR director returns from leave in August — a clear decision path, not an open question.",
   },
   {
     id: "decide-golive",
@@ -187,7 +193,7 @@ export const NEXT_STEPS: NextStep[] = [
 ];
 
 /** Bump when journey PNGs change — busts browser cache on GitHub Pages. */
-const JOURNEY_ASSET_VERSION = "20260607";
+const JOURNEY_ASSET_VERSION = "20260608";
 
 /** Resolve a journey asset path against the Vite base URL (GitHub Pages safe). */
 export function journeyAsset(fileName: string): string {

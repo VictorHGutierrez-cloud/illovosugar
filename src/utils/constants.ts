@@ -49,7 +49,7 @@ export const DEFAULT_VALUES = {
   demoEmail: null as string | null,
   demoPassword: null as string | null,
   demoNote:
-    "Live demo on Microsoft Teams — show Chido, site HR heads, and BPs how life looks when September isn't manual",
+    "Live demo on Microsoft Teams — walk the performance lead, site HR heads, and BPs through how life looks when September isn't manual",
 
   payrollPartner: "Payspace (payroll) — Factorial syncs; does not process payroll",
   currentTools:

@@ -194,7 +194,7 @@ export const slides: SlideData[] = [
         <SectionLabel>What drives the decision</SectionLabel>
         <SlideTitle>This isn't about software — it's about control</SlideTitle>
         <p className="text-[22px] font-normal opacity-75 mb-8 max-w-[1100px]">
-          Tamanda, you own the quality of HR data and process for Malawi's largest employer. These are the three
+          The HR team owns the quality of data and process for Malawi's largest employer. These are the three
           forces that make change inevitable — and Factorial the right partner.
         </p>
         <div className="grid grid-cols-3 gap-5">
@@ -207,8 +207,8 @@ export const slides: SlideData[] = [
           <FactorialCard
             icon={<TrendingUp size={22} />}
             title="A window that closes"
-            body="Malawi is decentralizing HR decisions for the first time. You can be the leader who modernized HR — with proof before Kumbo returns in August."
-            impact="Champion the change · bring a ready case to your director"
+            body="Malawi is decentralizing HR decisions for the first time — choosing its own HR tools. Modular proof before the September cycle, while the window is open."
+            impact="Modular proof · before the September cycle"
           />
           <FactorialCard
             icon={<Clock size={22} />}
@@ -218,8 +218,8 @@ export const slides: SlideData[] = [
           />
         </div>
         <p className="mt-8 text-[20px] font-normal opacity-70 max-w-[1000px] border-l-4 border-primary/60 pl-6">
-          You don't need more features. You need a mirror that shows how life would be better — and ammunition to
-          bring Chido, Leila, Moses, and Kumbo on board.
+          The goal isn't more features. It's a shared view for performance leads, site HR, and leadership — so the
+          September cycle starts with everyone aligned.
         </p>
       </div>
     ),
@@ -293,8 +293,8 @@ export const slides: SlideData[] = [
         <SectionLabel>Respect what you invested in</SectionLabel>
         <SlideTitle>No rip-and-replace · no repeating 2022</SlideTitle>
         <p className="text-[22px] font-normal opacity-75 mb-8 max-w-[1100px]">
-          SAP, Payspace, and UKG stay in place. Factorial fills the gaps Tamanda named — starting with performance,
-          expanding when the team is ready.
+          SAP, Payspace, and UKG stay in place. Factorial fills the gaps identified in the qualification call —
+          starting with performance, expanding when the team is ready.
         </p>
         <div className="border border-white/20">
           <div className="grid grid-cols-[1fr_1fr_1fr] text-[18px] font-bold bg-white/5">
@@ -366,7 +366,7 @@ export const slides: SlideData[] = [
     content: (
       <div className="flex flex-col justify-center h-full px-[100px]">
         <SectionLabel>Your path forward</SectionLabel>
-        <SlideTitle>Lead the change · bring Kumbo a ready case</SlideTitle>
+        <SlideTitle>Path forward · demo, scope, go-live</SlideTitle>
         <div className="grid grid-cols-[1.1fr_0.9fr] gap-8 mt-2">
           <div className="space-y-4">
             {[
@@ -374,13 +374,13 @@ export const slides: SlideData[] = [
                 step: "1",
                 title: "Performance demo on Teams",
                 body:
-                  "Tamanda coordinates via WhatsApp — invite Chido (performance), Leila & Moses (site HR heads), BPs, and training team. Show them: September doesn't have to be manual.",
+                  "A live Teams walkthrough with the performance lead, site HR heads, BPs, and training team. Show them: September doesn't have to be manual.",
               },
               {
                 step: "2",
                 title: "Build internal momentum",
                 body:
-                  "If recruitment sparks interest, bring talent team into phase two. Align stakeholders before Kumbo returns in August — she gets a decision path, not a question.",
+                  "If recruitment sparks interest, bring the talent team into phase two. Align stakeholders before the HR director returns in August — a decision path, not an open question.",
               },
               {
                 step: "3",

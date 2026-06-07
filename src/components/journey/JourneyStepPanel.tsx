@@ -37,20 +37,42 @@ export function JourneyStepPanel({ step, onWatchDemo }: JourneyStepPanelProps) {
           <blockquote className="mt-6 border-l-4 border-primary/50 pl-4 text-base italic text-foreground/80">
             &ldquo;{step.quote}&rdquo;
             <footer className="mt-1 text-sm font-medium not-italic text-muted-foreground">
-              — Tamanda Chikopa, qualification call
+              — Illovo HR team, qualification call
             </footer>
           </blockquote>
         )}
 
-        <button
-          type="button"
-          onClick={onWatchDemo}
-          className="mt-6 inline-flex w-fit items-center gap-2 rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground transition-transform hover:scale-[1.02] active:scale-[0.98]"
-        >
-          <PlayCircle className="h-5 w-5" />
-          Watch demo · {step.moduleLabel}
-          <ArrowRight className="h-4 w-4" />
-        </button>
+        {step.demoVideos.length > 0 && (
+          <button
+            type="button"
+            onClick={onWatchDemo}
+            className="mt-6 inline-flex w-fit items-center gap-2 rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground transition-transform hover:scale-[1.02] active:scale-[0.98]"
+          >
+            <PlayCircle className="h-5 w-5" />
+            Watch demo · {step.moduleLabel}
+            <ArrowRight className="h-4 w-4" />
+          </button>
+        )}
+
+        {step.screenshots && step.screenshots.length > 0 && (
+          <div className="mt-8 grid gap-5 sm:grid-cols-2">
+            {step.screenshots.map((shot) => (
+              <figure key={shot.file} className="flex flex-col gap-2">
+                <div className="overflow-hidden rounded-xl border border-border bg-white shadow-sm">
+                  <img
+                    src={journeyAsset(shot.file)}
+                    alt={shot.label}
+                    className="w-full object-contain"
+                    loading="lazy"
+                  />
+                </div>
+                <figcaption className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
+                  {shot.label}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

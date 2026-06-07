@@ -35,7 +35,7 @@ const Journey = () => {
             From manual chaos to September-ready
           </h1>
           <p className="mt-2 max-w-2xl text-muted-foreground">
-            Follow Tamanda and a site manager through the HR year — and see how each step looks with Factorial.
+            Follow the HR year at Illovo — three sites, one September deadline — and see how each step looks with Factorial.
           </p>
         </div>
 
