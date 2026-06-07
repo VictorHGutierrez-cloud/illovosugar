@@ -20,8 +20,8 @@ export function JourneyStepPanel({ step, onWatchDemo }: JourneyStepPanelProps) {
           src={journeyAsset(step.image)}
           alt={step.title}
           title={step.title}
-          className="h-full w-full"
-          imgClassName="h-full w-full object-contain p-4 md:p-8"
+          className="absolute inset-0 flex items-center justify-center"
+          imgClassName="max-h-full max-w-full object-contain p-4 md:p-8"
         />
         <span className="pointer-events-none absolute left-5 top-5 rounded-full bg-primary px-3.5 py-1.5 text-sm font-bold uppercase tracking-wider text-primary-foreground shadow-sm">
           Step {step.index}
@@ -70,7 +70,7 @@ export function JourneyStepPanel({ step, onWatchDemo }: JourneyStepPanelProps) {
               <figure key={shot.file} className="flex flex-col gap-2">
                 <div
                   className={cn(
-                    "overflow-hidden rounded-xl border border-border bg-muted/30 shadow-sm",
+                    "relative overflow-hidden rounded-xl border border-border bg-muted/30 shadow-sm",
                     singleScreenshot ? "aspect-[16/9] min-h-[220px]" : "aspect-[4/3] min-h-[200px]",
                   )}
                 >
@@ -78,8 +78,8 @@ export function JourneyStepPanel({ step, onWatchDemo }: JourneyStepPanelProps) {
                     src={journeyAsset(shot.file)}
                     alt={shot.label}
                     title={shot.label}
-                    className="h-full w-full"
-                    imgClassName="h-full w-full object-contain p-2"
+                    className="absolute inset-0 flex items-center justify-center"
+                    imgClassName="max-h-full max-w-full object-contain p-2"
                   />
                 </div>
                 <figcaption className="text-xs font-medium uppercase tracking-wider text-muted-foreground">

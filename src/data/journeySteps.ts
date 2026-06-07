@@ -161,34 +161,34 @@ export interface NextStep {
   description: string;
 }
 
-/** Optional follow-up topics — invitation, not obligation. */
+/** Follow-up path: explore → go live → results. */
 export const NEXT_STEPS: NextStep[] = [
   {
     id: "demo-teams",
     index: 1,
     image: "passoa.png",
-    label: "When you're ready",
-    title: "Explore performance on Teams",
+    label: "Explore",
+    title: "Performance demo on Teams",
     description:
-      "A live walkthrough of review cycles and manager dashboards — whoever from the team wants to join.",
+      "Walk through review cycles, 9-box talent grids, and manager dashboards with the people who run the September cycle.",
   },
   {
     id: "align-august",
     index: 2,
     image: "passob.png",
-    label: "At your pace",
-    title: "Compare notes internally",
+    label: "Go live",
+    title: "Modular rollout",
     description:
-      "Share what you've seen with site HR and performance leads — see what questions come up, no pressure.",
+      "Start where it hurts most — performance across three sites — without replacing SAP, UKG, or Payspace.",
   },
   {
     id: "decide-golive",
     index: 3,
     image: "passoc.png",
-    label: "If it fits",
-    title: "Shape the scope together",
+    label: "Results",
+    title: "Measure before September",
     description:
-      "If there's interest, map a modular start around what matters most before the review cycle — scope and pricing when you're ready.",
+      "Visibility across 7,793 employees: who's on track, where reviews sit, and whether the cycle is ready.",
   },
 ];
 

@@ -6,10 +6,10 @@ export function JourneyNextSteps() {
   return (
     <section className="mt-14 border-t border-border pt-10">
       <div className="mb-6">
-        <p className="text-xs font-bold uppercase tracking-[0.2em] text-primary">If this resonates</p>
-        <h2 className="mt-2 text-2xl font-bold leading-tight md:text-3xl">Where we left off</h2>
+        <p className="text-xs font-bold uppercase tracking-[0.2em] text-primary">The path forward</p>
+        <h2 className="mt-2 text-2xl font-bold leading-tight md:text-3xl">From onboarding to results</h2>
         <p className="mt-2 max-w-2xl text-muted-foreground">
-          Three topics to pick up whenever the team is ready — no fixed timeline.
+          Three phases — explore together, go live modularly, measure impact before September.
         </p>
       </div>
 
@@ -21,8 +21,8 @@ export function JourneyNextSteps() {
                 src={journeyAsset(step.image)}
                 alt={step.title}
                 title={step.title}
-                className="h-full w-full"
-                imgClassName="h-full w-full object-contain p-3"
+                className="absolute inset-0 flex items-center justify-center"
+                imgClassName="max-h-full max-w-full object-contain p-3"
               />
               <span className="pointer-events-none absolute left-3 top-3 rounded-full bg-primary/90 px-2.5 py-1 text-xs font-bold uppercase tracking-wider text-primary-foreground shadow-sm">
                 {step.label}

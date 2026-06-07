@@ -90,7 +90,7 @@ export function ExpandableImage({
         type="button"
         onClick={() => setOpen(true)}
         className={cn(
-          "relative block w-full text-left cursor-zoom-in group focus:outline-none focus-visible:ring-2 focus-visible:ring-primary",
+          "relative block w-full h-full min-h-[inherit] text-left cursor-zoom-in group focus:outline-none focus-visible:ring-2 focus-visible:ring-primary",
           className
         )}
         aria-label={`Expand image: ${alt}`}
@@ -99,7 +99,7 @@ export function ExpandableImage({
           <img src={src} alt={alt} className={cn("w-full h-full object-cover", imgClassName)} />
         )}
         {showHint && (
-          <span className="absolute bottom-3 right-3 flex items-center gap-1.5 rounded-full bg-black/65 px-3 py-1.5 text-[11px] md:text-xs text-white opacity-0 group-hover:opacity-100 transition-opacity">
+          <span className="absolute bottom-3 right-3 z-10 flex items-center gap-1.5 rounded-full bg-black/65 px-3 py-1.5 text-[11px] md:text-xs text-white opacity-80 transition-opacity group-hover:opacity-100">
             <ZoomIn size={14} />
             Click to expand
           </span>
