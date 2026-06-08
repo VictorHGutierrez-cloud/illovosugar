@@ -6,7 +6,7 @@
 - **Headline:** Accountability without control
 - **Company:** Illovo Sugar · 7,793 employees (peak 9,000–10,000)
 - **Quote:** *"I don't think we're optimal. Maybe they don't even shortlist at all. There's a risk there."* — Tamanda Chikopa
-- **Commercial contact:** Victor Gutierrez — Expansion Manager · US · Factorial
+- **Commercial contact:** Victor Gutierrez — Expansion Manager · US/Africa · Factorial
 
 ## 02 — Three acts
 | Act | Title | Core message |

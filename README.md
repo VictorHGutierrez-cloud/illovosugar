@@ -12,7 +12,7 @@ Pre-demo commercial proposal for **Illovo Sugar** (Malawi · 7,793 employees).
 
 ## Contact
 
-Victor Gutierrez — Expansion Manager · US · Factorial  
+Victor Gutierrez — Expansion Manager · US/Africa · Factorial  
 victor.gutierrez@factorial.co
 
 ## Local development

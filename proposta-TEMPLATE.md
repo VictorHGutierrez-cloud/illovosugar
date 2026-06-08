@@ -7,7 +7,7 @@
 - **Seats:** [N]
 - **Recommended bundle:** [Bundle]
 - **Modules:** [Modules]
-- **Commercial contact:** Victor Gutierrez — Expansion Manager · US · Factorial
+- **Commercial contact:** Victor Gutierrez — Expansion Manager · US/Africa · Factorial
 
 ## 02 — Context
 [2–3 sentences from discovery call]

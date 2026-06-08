@@ -42,7 +42,7 @@ export const DEFAULT_VALUES = {
   onboardingDias: "30",
 
   vendedor: "Victor Gutierrez",
-  cargoVendedor: "Expansion Manager · US · Factorial",
+  cargoVendedor: "Expansion Manager · US/Africa · Factorial",
   emailVendedor: "victor.gutierrez@factorial.co",
 
   demoUrl: null as string | null,
